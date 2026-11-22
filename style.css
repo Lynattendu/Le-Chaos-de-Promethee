@@ -1,1 +1,313 @@
 
+:root {
+  color-scheme: dark;
+  --bg: #101523;
+  --panel: #1a2335;
+  --panel2: #243149;
+  --txt: #f6f5f0;
+  --muted: #b8c3d5;
+  --gold: #f3c56a;
+  --edge: #354259;
+  --accent: #e8ac54;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(
+    circle at top,
+    #23324b 0,
+    #101523 64%
+  );
+  color: var(--txt);
+  font: 16px/1.5 system-ui, -apple-system,
+        'Segoe UI', sans-serif;
+}
+
+main {
+  max-width: 760px;
+  margin: auto;
+  padding: 22px 15px 70px;
+}
+
+h1, h2, h3, p {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: clamp(1.55rem, 5vw, 2.2rem);
+  color: var(--gold);
+  line-height: 1.15;
+  margin: 8px 0;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-size: 1rem;
+  margin-bottom: 6px;
+}
+
+.sub {
+  color: var(--muted);
+  font-size: .92rem;
+}
+
+.eyebrow {
+  font-weight: 800;
+  letter-spacing: .13em;
+  color: var(--gold);
+  font-size: .76rem;
+}
+
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--edge);
+  border-radius: 18px;
+  padding: 17px;
+  margin-top: 16px;
+  box-shadow: 0 6px 30px #0002;
+}
+
+.layout {
+  display: flex;
+  gap: 9px;
+  flex-wrap: wrap;
+}
+
+.layout > * {
+  flex: 1 1 130px;
+}
+
+button, select, input {
+  font: inherit;
+}
+
+button {
+  background: var(--panel2);
+  border: 1px solid #53617a;
+  color: var(--txt);
+  border-radius: 11px;
+  padding: 11px 13px;
+  cursor: pointer;
+  min-height: 45px;
+  font-weight: 650;
+}
+
+button:active {
+  transform: translateY(1px);
+}
+
+button:hover {
+  border-color: var(--gold);
+}
+
+button.primary {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: #19202e;
+}
+
+button.alert {
+  border-color: #dd9075;
+}
+
+button.small {
+  min-height: 33px;
+  padding: 5px 10px;
+  font-size: .86rem;
+}
+
+button:disabled {
+  opacity: .45;
+  cursor: not-allowed;
+}
+
+input, select {
+  width: 100%;
+  background: #101827;
+  color: var(--txt);
+  border: 1px solid #62718b;
+  border-radius: 10px;
+  padding: 12px;
+  min-height: 45px;
+}
+
+input:focus,
+select:focus,
+button:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+label {
+  display: block;
+  color: var(--muted);
+  font-size: .86rem;
+  margin: 0 0 7px;
+}
+
+.name-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  min-height: 30px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: #29374d;
+  border-radius: 30px;
+  padding: 5px 7px 5px 12px;
+}
+
+.chip button {
+  min-height: 26px;
+  width: 26px;
+  padding: 0;
+  border: 0;
+  background: #435169;
+  border-radius: 50%;
+}
+
+.center {
+  text-align: center;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.pill {
+  display: inline-block;
+  background: #364459;
+  border-radius: 24px;
+  padding: 4px 11px;
+  font-size: .81rem;
+  color: var(--gold);
+  font-weight: 750;
+}
+
+.question {
+  font-size: clamp(1.35rem, 4.7vw, 2.1rem);
+  line-height: 1.37;
+  font-weight: 770;
+  margin: 22px 0;
+}
+
+.prompt {
+  margin: 12px 0;
+  padding: 13px;
+  background: #29374e;
+  border-radius: 12px;
+  border-left: 3px solid var(--gold);
+}
+
+.prompt strong {
+  color: var(--gold);
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.status {
+  font-size: .88rem;
+  color: var(--muted);
+}
+
+.note {
+  border-left: 3px solid #6fadc1;
+  padding-left: 12px;
+  color: var(--muted);
+  font-size: .92rem;
+}
+
+.topline {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: center;
+}
+
+.tight {
+  margin-bottom: 6px;
+}
+
+#specialBanner {
+  background: #352f41;
+  border: 1px solid #ad83a9;
+  border-radius: 12px;
+  padding: 12px;
+  margin: 12px 0;
+}
+
+.footer {
+  font-size: .78rem;
+  color: var(--muted);
+  text-align: center;
+  margin-top: 20px;
+}
+
+.settingsRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.settingsRow label {
+  margin: 0;
+  white-space: nowrap;
+}
+
+.settingsRow select {
+  max-width: 230px;
+}
+
+.toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: .9rem;
+}
+
+.toggle input {
+  width: auto;
+  min-height: auto;
+  accent-color: var(--gold);
+}
+
+@media (min-width: 650px) {
+  main {
+    padding-top: 35px;
+  }
+
+  .panel {
+    padding: 22px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .panel {
+    animation: fade .2s ease-out;
+  }
+
+  @keyframes fade {
+    from {
+      opacity: .7;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+}
+
