@@ -569,3 +569,50 @@ $('resetBtn').onclick = () => {
 
 renderNames();
 
+
+/* =========================================================
+   DIAGNOSTIC DU CHAOS
+========================================================= */
+
+window.addEventListener('error', function(event) {
+  const message = event.message || 'Erreur inconnue';
+
+  document.getElementById('question').textContent =
+    'ERREUR : ' + message;
+
+  document.getElementById('stats').textContent =
+    'Le moteur du jeu a rencontré une erreur.';
+});
+
+window.addEventListener('unhandledrejection', function(event) {
+  document.getElementById('question').textContent =
+    'ERREUR : ' + String(event.reason);
+});
+
+// Test du moteur de questions
+
+function testerChaos() {
+  try {
+    if (names.length < 2) {
+      alert('Seulement ' + names.length + ' joueur(s) détecté(s).');
+      return;
+    }
+
+    next('collective');
+
+    if (!shown || !shown.text) {
+      alert('Aucune question récupérée.');
+    }
+
+  } catch (erreur) {
+    alert(
+      'ERREUR DU CHAOS :\n' +
+      erreur.message
+    );
+  }
+}
+
+document.getElementById('nextBtn').addEventListener(
+  'click',
+  testerChaos
+);
