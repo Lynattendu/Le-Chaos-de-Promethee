@@ -408,7 +408,270 @@ const QUESTIONS = [
     'Quelle question aimerais-tu parfois poser mais n’oses jamais demander ?',
     'Pourquoi est-elle difficile à poser ?',
     'Tu veux nous la poser, sans désigner personne ?'
-  ]
+  ],
+   
+/* =========================================================
+   NOUVELLES QUESTIONS — SÉRIE 3
+   LE CHAOS DE PROMÉTHÉE
+========================================================= */
+
+// CE QU'ON N'IMAGINE PAS DE TOI
+
+[
+  2,
+  'Les surprises',
+  'Quelle est la chose que les autres seraient les plus surpris de découvrir chez toi ?',
+  'Pourquoi cette facette de toi est-elle si peu connue ?',
+  'Et est-ce que tu aimerais vraiment que les autres la découvrent ?'
+],
+
+[
+  2,
+  'Les surprises',
+  'Dans quelle situation es-tu complètement différent de ton comportement habituel ?',
+  'Qu’est-ce qui provoque ce changement ?',
+  'Et qui a déjà eu la surprise de découvrir cette autre version de toi ?'
+],
+
+[
+  1,
+  'Les surprises',
+  'Quelle chose te procure un plaisir que les autres auraient du mal à comprendre ?',
+  'Qu’est-ce qui te plaît autant ?',
+  'Et jusqu’où serais-tu capable d’aller pour ce plaisir ?'
+],
+
+[
+  3,
+  'Les surprises',
+  'Qu’est-ce que tu as déjà fait et que tu pensais ne jamais être capable de faire ?',
+  'Qu’est-ce qui t’a finalement poussé à agir ?',
+  'Et est-ce que tu serais capable de recommencer aujourd’hui ?'
+],
+
+[
+  2,
+  'Les surprises',
+  'Quelle première impression les gens ont-ils de toi qui est complètement fausse ?',
+  'Pourquoi donnent-ils cette impression de toi ?',
+  'Et quelle serait leur réaction s’ils connaissaient vraiment cette facette ?'
+],
+
+
+// LES ENVIES
+
+[
+  2,
+  'Les envies',
+  'Si tu pouvais réaliser une envie sans aucune contrainte, laquelle choisirais-tu ?',
+  'Depuis combien de temps en as-tu envie ?',
+  'Et quelle est la véritable raison pour laquelle tu ne l’as pas encore fait ?'
+],
+
+[
+  3,
+  'Les envies',
+  'Qu’est-ce que tu aimerais essayer au moins une fois dans ta vie ?',
+  'Qu’est-ce qui t’attire dans cette expérience ?',
+  'Et avec qui aimerais-tu vraiment la partager ?'
+],
+
+[
+  3,
+  'Les envies',
+  'Quelle proposition pourrait te faire agir sans réfléchir ?',
+  'Qu’est-ce qui te ferait perdre toute prudence ?',
+  'Et as-tu déjà accepté quelque chose que tu as regretté ensuite ?'
+],
+
+[
+  2,
+  'Les envies',
+  'Qu’est-ce que tu aimerais faire plus souvent mais que tu ne t’autorises pas assez ?',
+  'Pourquoi te l’interdis-tu ?',
+  'Et qu’est-ce qui pourrait te faire changer d’avis dès demain ?'
+],
+
+[
+  4,
+  'Les envies',
+  'Quelle expérience aimerais-tu vivre mais n’as-tu jamais osé proposer ?',
+  'Qu’est-ce qui te retient ?',
+  'Et si quelqu’un te proposait exactement cette expérience ce soir ?'
+],
+
+
+// LES RÉACTIONS
+
+[
+  2,
+  'Les réactions',
+  'Comment réagis-tu quand quelque chose ne se passe absolument pas comme prévu ?',
+  'Qu’est-ce qui te dérange le plus dans cette situation ?',
+  'Et quelle a été ta réaction la plus surprenante ?'
+],
+
+[
+  2,
+  'Les réactions',
+  'Quelle situation peut te faire changer d’humeur en quelques secondes ?',
+  'Pourquoi est-elle aussi efficace sur toi ?',
+  'Et les autres savent-ils reconnaître ce changement ?'
+],
+
+[
+  3,
+  'Les réactions',
+  'Qu’est-ce qui pourrait te faire sortir complètement de ta réserve ?',
+  'Qu’est-ce qui déclencherait cette réaction ?',
+  'Et est-ce que quelqu’un t’a déjà découvert sous ce jour ?'
+],
+
+[
+  2,
+  'Les réactions',
+  'Comment réagis-tu quand quelqu’un te met au défi ?',
+  'Qu’est-ce qui te pousse à accepter ou à refuser ?',
+  'Et quel défi as-tu accepté uniquement par fierté ?'
+],
+
+[
+  3,
+  'Les réactions',
+  'Quelle situation pourrait te faire perdre tous tes moyens ?',
+  'Qu’est-ce qui te déstabiliserait le plus ?',
+  'Et cela t’est-il déjà arrivé devant quelqu’un que tu voulais impressionner ?'
+],
+
+
+// LES CONTRADICTIONS
+
+[
+  2,
+  'Les contradictions',
+  'Quelle chose affirmes-tu ne jamais vouloir faire alors que tu sais que tu pourrais céder ?',
+  'Qu’est-ce qui pourrait te faire changer d’avis ?',
+  'Et à quel point serais-tu facile à convaincre ?'
+],
+
+[
+  3,
+  'Les contradictions',
+  'Sur quel sujet as-tu tendance à ne pas suivre tes propres principes ?',
+  'Pourquoi fais-tu une exception ?',
+  'Et quelle est la dernière fois où tu as franchi cette limite ?'
+],
+
+[
+  2,
+  'Les contradictions',
+  'Quelle qualité apprécies-tu chez les autres mais as-tu du mal à développer toi-même ?',
+  'Pourquoi est-elle difficile pour toi ?',
+  'Et dans quelle situation aimerais-tu vraiment la posséder ?'
+],
+
+[
+  3,
+  'Les contradictions',
+  'Quelle chose te semble attirante et inquiétante à la fois ?',
+  'Qu’est-ce qui t’attire et qu’est-ce qui te retient ?',
+  'Et si tu étais certain que tout se passerait bien, oserais-tu ?'
+],
+
+[
+  3,
+  'Les contradictions',
+  'Quelle est la dernière fois où tu as surpris quelqu’un en faisant le contraire de ce qu’il attendait ?',
+  'Pourquoi as-tu agi ainsi ?',
+  'Et est-ce que tu avais secrètement envie de provoquer cette surprise ?'
+],
+
+
+// LES RELATIONS HUMAINES
+
+[
+  2,
+  'Les relations',
+  'Qu’est-ce qui peut te rendre immédiatement complice avec quelqu’un ?',
+  'Pourquoi cette complicité fonctionne-t-elle ?',
+  'Et as-tu déjà ressenti cette complicité avec une personne totalement inattendue ?'
+],
+
+[
+  3,
+  'Les relations',
+  'Qu’est-ce qui pourrait te faire perdre confiance en quelqu’un ?',
+  'Pourquoi ce comportement te touche-t-il autant ?',
+  'Et pourrais-tu lui redonner une chance ?'
+],
+
+[
+  2,
+  'Les relations',
+  'Quelle attitude chez une personne peut complètement te désarmer ?',
+  'Qu’est-ce qui te touche autant dans cette attitude ?',
+  'Et t’est-il déjà arrivé de changer tous tes plans à cause de quelqu’un ?'
+],
+
+[
+  3,
+  'Les relations',
+  'Qu’est-ce que tu trouves séduisant chez quelqu’un sans forcément savoir l’expliquer ?',
+  'Qu’est-ce que cela provoque chez toi ?',
+  'Et as-tu déjà été surpris par une attirance totalement inattendue ?'
+],
+
+[
+  4,
+  'Les relations',
+  'Quelle situation pourrait te pousser à faire le premier pas alors que tu ne le fais jamais ?',
+  'Qu’est-ce qui te donnerait suffisamment confiance ?',
+  'Et jusqu’où serais-tu prêt à sortir de tes habitudes pour cette personne ?'
+],
+
+
+// CE QU'ON N'OSE PAS TOUJOURS AVOUER
+
+[
+  3,
+  'Les confidences',
+  'Quelle chose as-tu déjà faite uniquement parce que tu avais peur de dire non ?',
+  'Qu’est-ce qui t’empêchait de refuser ?',
+  'Et aujourd’hui, réagirais-tu de la même façon ?'
+],
+
+[
+  3,
+  'Les confidences',
+  'Quel moment de ta vie t’a fait découvrir quelque chose d’inattendu sur toi-même ?',
+  'Qu’as-tu compris à ce moment-là ?',
+  'Et est-ce que les autres connaissent cette facette de toi ?'
+],
+
+[
+  3,
+  'Les confidences',
+  'Quelle est la chose que tu regrettes de ne pas avoir osé faire ?',
+  'Qu’est-ce qui t’avait retenu ?',
+  'Et si la même occasion se présentait aujourd’hui ?'
+],
+
+[
+  4,
+  'Les confidences',
+  'Qu’est-ce que tu as déjà eu envie de faire mais que tu n’aurais jamais osé raconter à tes amis ?',
+  'Pourquoi aurais-tu préféré le garder pour toi ?',
+  'Et est-ce que tu serais capable de nous en parler aujourd’hui ?'
+],
+
+[
+  4,
+  'Les confidences',
+  'Quelle situation t’a déjà fait oublier complètement tes principes ou tes bonnes résolutions ?',
+  'Qu’est-ce qui t’a fait céder ?',
+  'Et si cette situation se reproduisait demain, résisterais-tu davantage ?'
+]
+
 
 ];
 
