@@ -408,15 +408,17 @@ function next(mode = 'auto', fixed = null) {
         'peuvent tenter de deviner sa réponse.';
   }
 
-  shown = {
-    label,
-    players,
-    q,
-    text,
-    info
-  };
+  
+shown = {
+  label: label,
+  players: players,
+  q: q,
+  text: text,
+  info: info
+};
 
-  renderCard();
+renderCard();
+
 }
 
 // AJOUT DE PARTICIPANTS
