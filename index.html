@@ -1,1 +1,117 @@
 
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#101523">
+<title>Le Chaos de Prométhée</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header class="center">
+  <div class="eyebrow">🍹 LE MAÎTRE DU CHAOS</div>
+  <h1>LE CHAOS DE PROMÉTHÉE</h1>
+  <p class="sub">Rire, se surprendre et découvrir ceux qu'on croit connaître.</p>
+</header>
+
+<section class="panel" id="setup">
+  <h2>Les participants</h2>
+  <p class="sub">Inscris tous les prénoms, y compris le tien. Tu gardes le téléphone et tu joues aussi.</p>
+  <form id="addForm" class="layout">
+    <input id="nameInput" type="text" maxlength="32" placeholder="Prénom d'un joueur" autocomplete="off" aria-label="Prénom">
+    <button class="primary" type="submit">+ Ajouter</button>
+  </form>
+  <div id="nameList" class="name-list" style="margin:13px 0" aria-live="polite"></div>
+  <p id="rosterMessage" class="status"></p>
+  <button class="primary" style="width:100%" id="startBtn" type="button">Lancer la partie 🎲</button>
+  <p class="note" style="margin-top:14px">Il n'y a ni scores ni obligation de répondre. Les prénoms restent uniquement sur cet appareil.</p>
+</section>
+
+<section id="game" class="hidden">
+  <div class="panel">
+    <div class="topline">
+      <span class="pill">👑 MAÎTRE DU CHAOS</span>
+      <button class="small" id="editBtn">⚙ Joueurs</button>
+    </div>
+    <div class="settingsRow" style="margin-top:13px">
+      <label for="level">Ambiance</label>
+      <select id="level">
+        <option value="1">1 · Détente</option>
+        <option value="2">2 · On se découvre</option>
+        <option value="3">3 · Sans filtre</option>
+        <option value="4">4 · Plus osé</option>
+      </select>
+      <label class="toggle">
+        <input id="autoLevel" type="checkbox" checked>
+        Progression douce
+      </label>
+    </div>
+    <p class="status" id="stats" style="margin:10px 0 0"></p>
+  </div>
+
+  <div class="panel" aria-live="polite">
+    <div class="topline">
+      <span class="pill" id="cardType">Question collective</span>
+      <span id="cardCount" class="status"></span>
+    </div>
+
+    <h2 id="chosenName" class="center" style="margin:14px 0 0;color:var(--gold)"></h2>
+    <div id="question" class="question center">À toi de déclencher le Chaos !</div>
+    <p id="instructions" class="center sub"></p>
+
+    <div id="deep" class="prompt hidden">
+      <strong>🔍 Creuse un peu</strong>
+      <div id="deepText"></div>
+    </div>
+
+    <div id="far" class="prompt hidden">
+      <strong>😈 Encore plus loin</strong>
+      <div id="farText"></div>
+    </div>
+
+    <div id="specialBanner" class="hidden"></div>
+
+    <div class="layout">
+      <button id="deepBtn" type="button">🔍 Creuse un peu</button>
+      <button id="farBtn" type="button">😈 Encore plus loin</button>
+    </div>
+
+    <button id="nextBtn" type="button" class="primary" style="width:100%;margin-top:10px">🎲 Carte suivante</button>
+  </div>
+
+  <div class="panel">
+    <h2>Les commandes du Maître</h2>
+
+    <div class="layout">
+      <button data-action="collective">👥 Tous ensemble</button>
+      <button data-action="solo">🎯 Hasard</button>
+      <button data-action="duel">⚔️ Duel</button>
+      <button data-action="mystery">🕵️ Auteur Mystère</button>
+      <button data-action="chaos">💥 Chaos !</button>
+      <button data-action="choose">👑 Le Maître décide</button>
+    </div>
+
+    <div id="chooseWrap" class="hidden" style="margin-top:12px">
+      <label for="specificPlayer">Choisis une personne</label>
+      <div class="layout">
+        <select id="specificPlayer"></select>
+        <button class="primary" id="chooseConfirm">Afficher la question</button>
+      </div>
+    </div>
+
+    <div class="layout" style="margin-top:12px">
+      <button id="skipBtn">↪ Passer cette carte</button>
+      <button id="resetBtn" class="alert">↻ Nouvelle partie</button>
+    </div>
+  </div>
+
+  <p class="footer">Pas d'images, pas de compte, pas de suivi des réponses. Le vrai jeu se passe autour de la table. 🍹</p>
+</section>
+</main>
+
+<script src="script.js" defer></script>
+</body>
+</html>
+
