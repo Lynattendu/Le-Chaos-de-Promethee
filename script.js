@@ -670,7 +670,270 @@ const QUESTIONS = [
   'Quelle situation t’a déjà fait oublier complètement tes principes ou tes bonnes résolutions ?',
   'Qu’est-ce qui t’a fait céder ?',
   'Et si cette situation se reproduisait demain, résisterais-tu davantage ?'
+],
+   
+/* =========================================================
+   SÉRIE 4 — CE QU'ON NE SAIT PAS ENCORE DE TOI
+   30 QUESTIONS + 60 RELANCES
+========================================================= */
+
+// LES APPARENCES
+
+[
+  2,
+  'Les apparences',
+  'Quelle image de toi aimerais-tu parfois changer ?',
+  'Pourquoi penses-tu que les autres te voient ainsi ?',
+  'Et quelle partie de toi préfères-tu finalement garder mystérieuse ?'
+],
+
+[
+  2,
+  'Les apparences',
+  'Dans quelle situation fais-tu semblant d’être plus sûr de toi que tu ne l’es réellement ?',
+  'Qu’est-ce qui te pousse à donner cette impression ?',
+  'Et quelqu’un a-t-il déjà découvert que tu bluffais ?'
+],
+
+[
+  3,
+  'Les apparences',
+  'Quelle facette de ta personnalité ne montres-tu qu’à certaines personnes ?',
+  'Qu’est-ce qui te permet de la montrer avec elles ?',
+  'Et quelle réaction aurais-tu si tout le monde ici la découvrait ?'
+],
+
+[
+  2,
+  'Les apparences',
+  'Qu’est-ce que les gens pensent que tu adores alors que ce n’est pas vraiment le cas ?',
+  'Pourquoi les laisses-tu parfois le croire ?',
+  'Et depuis combien de temps entretiens-tu cette illusion ?'
+],
+
+[
+  3,
+  'Les apparences',
+  'Quelle chose arrives-tu particulièrement bien à cacher lorsque tu es avec d’autres personnes ?',
+  'Comment fais-tu pour ne rien laisser paraître ?',
+  'Et quelqu’un a-t-il déjà réussi à te démasquer ?'
+],
+
+
+// LES DÉCISIONS
+
+[
+  2,
+  'Les décisions',
+  'Quelle décision as-tu prise contre l’avis de tout le monde ?',
+  'Qu’est-ce qui te rendait aussi sûr de toi ?',
+  'Et est-ce que tu as fini par donner raison aux autres ?'
+],
+
+[
+  2,
+  'Les décisions',
+  'Dans quelle situation préfères-tu suivre ton instinct plutôt que réfléchir ?',
+  'Pourquoi fais-tu davantage confiance à ton instinct ?',
+  'Et quelle fois t’a-t-il complètement trompé ?'
+],
+
+[
+  3,
+  'Les décisions',
+  'Qu’est-ce qui pourrait te faire prendre une décision complètement inattendue ?',
+  'Qu’est-ce qui aurait le plus d’influence sur toi ?',
+  'Et as-tu déjà surpris tes proches avec une décision prise en quelques minutes ?'
+],
+
+[
+  2,
+  'Les décisions',
+  'Quelle occasion as-tu laissée passer et à laquelle tu repenses encore parfois ?',
+  'Qu’est-ce qui t’avait fait hésiter ?',
+  'Et si cette occasion revenait demain, ferais-tu vraiment autrement ?'
+],
+
+[
+  3,
+  'Les décisions',
+  'Qu’est-ce qui pourrait te faire changer d’avis sur une chose que tu considères comme essentielle ?',
+  'Pourquoi y tiens-tu autant ?',
+  'Et as-tu déjà dû reconnaître que tu t’étais complètement trompé ?'
+],
+
+
+// LES PETITS MENSONGES
+
+[
+  2,
+  'Les petits mensonges',
+  'Dans quelle situation as-tu tendance à arranger un peu la vérité ?',
+  'Qu’est-ce que tu cherches à éviter ?',
+  'Et quelle fois ton histoire est-elle devenue difficile à tenir ?'
+],
+
+[
+  3,
+  'Les petits mensonges',
+  'Quel mensonge inoffensif as-tu entretenu beaucoup plus longtemps que prévu ?',
+  'Pourquoi ne l’as-tu pas corrigé immédiatement ?',
+  'Et si la vérité était révélée aujourd’hui, qui serait le plus surpris ?'
+],
+
+[
+  2,
+  'Les petits mensonges',
+  'Qu’est-ce que tu as déjà fait semblant de comprendre alors que tu n’y comprenais absolument rien ?',
+  'Pourquoi n’as-tu pas osé demander une explication ?',
+  'Et combien de temps as-tu réussi à faire illusion ?'
+],
+
+[
+  3,
+  'Les petits mensonges',
+  'Quelle excuse as-tu déjà donnée alors que la véritable raison était beaucoup plus personnelle ?',
+  'Pourquoi préférais-tu garder cette raison pour toi ?',
+  'Et aujourd’hui, serais-tu capable de dire simplement la vérité ?'
+],
+
+[
+  2,
+  'Les petits mensonges',
+  'Quelle chose as-tu déjà exagérée pour rendre une histoire plus intéressante ?',
+  'Qu’est-ce qui te plaisait dans cette version ?',
+  'Et quelle serait la réaction des autres s’ils connaissaient les deux versions ?'
+],
+
+
+// LES ENVIES SECRÈTES
+
+[
+  3,
+  'Les envies secrètes',
+  'Quelle envie te traverse parfois l’esprit sans que tu cherches vraiment à la réaliser ?',
+  'Qu’est-ce qui te plaît dans cette idée ?',
+  'Et qu’est-ce qui pourrait te pousser à franchir le pas ?'
+],
+
+[
+  4,
+  'Les envies secrètes',
+  'Quelle expérience serais-tu tenté de vivre si tu pouvais être certain de ne pas être jugé ?',
+  'Qu’est-ce qui te retient aujourd’hui ?',
+  'Et est-ce une envie passagère ou quelque chose auquel tu penses depuis longtemps ?'
+],
+
+[
+  3,
+  'Les envies secrètes',
+  'Quelle chose as-tu envie de découvrir mais n’as-tu jamais osé demander ?',
+  'Pourquoi cette curiosité t’intéresse-t-elle autant ?',
+  'Et à qui aimerais-tu pouvoir poser cette question librement ?'
+],
+
+[
+  4,
+  'Les envies secrètes',
+  'Quelle proposition inattendue pourrait vraiment te faire hésiter ?',
+  'Qu’est-ce qui te donnerait envie d’accepter ?',
+  'Et si tu n’avais que dix secondes pour répondre ?'
+],
+
+[
+  3,
+  'Les envies secrètes',
+  'Quelle partie de ta vie aimerais-tu rendre un peu plus imprévisible ?',
+  'Qu’est-ce qui te manque actuellement ?',
+  'Et quelle serait la première folie raisonnable que tu pourrais tenter ?'
+],
+
+
+// LES RELATIONS
+
+[
+  2,
+  'Les relations',
+  'Qu’est-ce qui te fait sentir immédiatement à l’aise avec quelqu’un ?',
+  'Pourquoi est-ce important pour toi ?',
+  'Et as-tu déjà ressenti cette confiance avec une personne rencontrée depuis quelques minutes ?'
+],
+
+[
+  3,
+  'Les relations',
+  'Quelle attitude chez quelqu’un peut complètement te faire changer de comportement ?',
+  'Qu’est-ce que cette attitude provoque chez toi ?',
+  'Et est-ce que cela t’a déjà amené à faire quelque chose d’inhabituel ?'
+],
+
+[
+  3,
+  'Les relations',
+  'Qu’est-ce qui pourrait te faire reprendre contact avec quelqu’un après plusieurs années ?',
+  'Qu’est-ce qui te donnerait envie de retrouver cette personne ?',
+  'Et y a-t-il une conversation que tu aimerais pouvoir reprendre ?'
+],
+
+[
+  4,
+  'Les relations',
+  'Quelle situation pourrait te faire oublier toute ta timidité ?',
+  'Qu’est-ce qui te donnerait soudainement confiance ?',
+  'Et as-tu déjà osé faire quelque chose qui t’aurait semblé impossible quelques minutes auparavant ?'
+],
+
+[
+  3,
+  'Les relations',
+  'Qu’est-ce qui te touche le plus dans une attention venant de quelqu’un ?',
+  'Pourquoi ce geste a-t-il autant de valeur pour toi ?',
+  'Et quelle attention t’a déjà complètement surpris ?'
+],
+
+
+// LES MOMENTS INATTENDUS
+
+[
+  2,
+  'Les moments inattendus',
+  'Quel événement a pris une tournure que tu n’aurais jamais imaginée ?',
+  'À quel moment as-tu compris que rien ne se passait comme prévu ?',
+  'Et quelle partie de cette histoire surprendrait le plus les personnes ici ?'
+],
+
+[
+  2,
+  'Les moments inattendus',
+  'Quelle rencontre improbable t’a laissé un souvenir particulier ?',
+  'Qu’est-ce qui rendait cette rencontre si différente ?',
+  'Et si tu pouvais revoir cette personne aujourd’hui, que lui dirais-tu ?'
+],
+
+[
+  3,
+  'Les moments inattendus',
+  'Quelle situation t’a obligé à improviser complètement ?',
+  'Comment as-tu trouvé une solution ?',
+  'Et as-tu raconté toute la vérité sur la façon dont tu t’en es sorti ?'
+],
+
+[
+  3,
+  'Les moments inattendus',
+  'Quelle est la dernière fois où tu t’es surpris toi-même ?',
+  'Qu’est-ce que cette situation t’a appris sur toi ?',
+  'Et est-ce que les autres auraient imaginé cette réaction de ta part ?'
+],
+
+[
+  4,
+  'Les moments inattendus',
+  'Quel moment inattendu t’a donné envie de faire quelque chose que tu n’aurais jamais envisagé auparavant ?',
+  'Qu’est-ce qui a déclenché cette envie ?',
+  'Et est-ce que tu es finalement allé jusqu’au bout ?'
 ]
+
 
 
 ];
