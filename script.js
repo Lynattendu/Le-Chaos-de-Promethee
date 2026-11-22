@@ -932,7 +932,271 @@ const QUESTIONS = [
   'Quel moment inattendu t’a donné envie de faire quelque chose que tu n’aurais jamais envisagé auparavant ?',
   'Qu’est-ce qui a déclenché cette envie ?',
   'Et est-ce que tu es finalement allé jusqu’au bout ?'
+],
+   
+/* =========================================================
+   SÉRIE 5 — DERRIÈRE LES APPARENCES
+   30 QUESTIONS + 60 RELANCES
+========================================================= */
+
+
+// LES DILEMMES
+
+[
+  2,
+  'Les dilemmes',
+  'Qu’est-ce qui serait le plus difficile pour toi : renoncer à quelque chose que tu aimes ou accepter quelque chose que tu détestes ?',
+  'Qu’est-ce qui influencerait le plus ton choix ?',
+  'Et si ton choix pouvait changer complètement ton avenir ?'
+],
+
+[
+  3,
+  'Les dilemmes',
+  'Si tu pouvais découvrir ce que les gens pensent réellement de toi, voudrais-tu le savoir ?',
+  'Qu’est-ce que tu espérerais apprendre ?',
+  'Et si tu découvrais quelque chose que tu n’avais jamais imaginé ?'
+],
+
+[
+  2,
+  'Les dilemmes',
+  'Préférerais-tu connaître à l’avance une grande surprise ou la découvrir au dernier moment ?',
+  'Pourquoi cette préférence ?',
+  'Et si cette surprise pouvait bouleverser ta vie ?'
+],
+
+[
+  3,
+  'Les dilemmes',
+  'Qu’est-ce qui pourrait te pousser à choisir ton envie plutôt que la raison ?',
+  'Dans quelle situation suivrais-tu ton envie ?',
+  'Et quelle décision as-tu déjà prise en sachant parfaitement que ce n’était pas raisonnable ?'
+],
+
+[
+  3,
+  'Les dilemmes',
+  'Si tu devais choisir entre une vie très confortable et une vie pleine d’imprévus, vers laquelle irais-tu ?',
+  'Qu’est-ce que tu rechercherais dans ce choix ?',
+  'Et serais-tu capable de tout recommencer pour vivre autrement ?'
+],
+
+
+// LA CONFIANCE
+
+[
+  2,
+  'La confiance',
+  'Qu’est-ce qui te donne envie de faire confiance à quelqu’un ?',
+  'Quel détail fait la différence pour toi ?',
+  'Et as-tu déjà accordé ta confiance beaucoup trop rapidement ?'
+],
+
+[
+  3,
+  'La confiance',
+  'Quelle chose pourrais-tu pardonner facilement alors que d’autres ne la pardonneraient jamais ?',
+  'Pourquoi serais-tu capable de passer dessus ?',
+  'Et y a-t-il une situation où tu as surpris quelqu’un par ton pardon ?'
+],
+
+[
+  2,
+  'La confiance',
+  'Quand tu rencontres quelqu’un, qu’est-ce qui attire ton attention en premier ?',
+  'Pourquoi remarques-tu particulièrement ce détail ?',
+  'Et as-tu déjà eu une première impression complètement trompeuse ?'
+],
+
+[
+  3,
+  'La confiance',
+  'Qu’est-ce qui pourrait te faire raconter quelque chose de personnel à une personne que tu connais à peine ?',
+  'Qu’est-ce qui te mettrait suffisamment en confiance ?',
+  'Et as-tu déjà confié quelque chose à un inconnu que tes proches ne savaient pas ?'
+],
+
+[
+  3,
+  'La confiance',
+  'Quelle est la chose que tu aimerais que les autres comprennent mieux chez toi ?',
+  'Pourquoi est-ce important pour toi ?',
+  'Et qu’est-ce qui t’empêche parfois de leur expliquer ?'
+],
+
+
+// LES TENTATIONS
+
+[
+  2,
+  'Les tentations',
+  'Quelle chose pourrais-tu accepter simplement parce que l’occasion ne se présenterait qu’une seule fois ?',
+  'Qu’est-ce qui te donnerait envie de tenter ta chance ?',
+  'Et quelle occasion as-tu déjà saisie alors que tu hésitais énormément ?'
+],
+
+[
+  3,
+  'Les tentations',
+  'Dans quelle situation pourrais-tu te laisser entraîner beaucoup plus loin que prévu ?',
+  'Qu’est-ce qui pourrait te faire perdre la notion des limites ?',
+  'Et t’est-il déjà arrivé de te dire après coup : « Je n’aurais jamais cru faire ça » ?'
+],
+
+[
+  4,
+  'Les tentations',
+  'Quelle proposition te ferait hésiter entre être raisonnable et te faire plaisir ?',
+  'Qu’est-ce qui pèserait le plus dans ta décision ?',
+  'Et si tu savais que personne ne te demanderait de te justifier ?'
+],
+
+[
+  3,
+  'Les tentations',
+  'Qu’est-ce qui pourrait te faire oublier complètement tes habitudes ?',
+  'Qu’est-ce qui te donnerait envie de changer ?',
+  'Et quelle habitude as-tu déjà abandonnée sur un simple coup de tête ?'
+],
+
+[
+  4,
+  'Les tentations',
+  'Quelle curiosité aimerais-tu satisfaire au moins une fois ?',
+  'Qu’est-ce qui te donne envie d’en savoir davantage ?',
+  'Et quelle question n’as-tu encore jamais osé poser à ce sujet ?'
+],
+
+
+// LES SURPRISES
+
+[
+  1,
+  'Les surprises',
+  'Quelle activité as-tu découverte presque par hasard et que tu as finalement adorée ?',
+  'Qu’est-ce qui t’a donné envie de continuer ?',
+  'Et quelle autre activité inattendue accepterais-tu d’essayer maintenant ?'
+],
+
+[
+  2,
+  'Les surprises',
+  'Quelle chose pensais-tu ne jamais aimer avant de changer complètement d’avis ?',
+  'Qu’est-ce qui a provoqué ce changement ?',
+  'Et qu’est-ce que tu refuses encore d’essayer aujourd’hui ?'
+],
+
+[
+  2,
+  'Les surprises',
+  'Quel événement t’a fait découvrir une qualité que tu ne pensais pas posséder ?',
+  'Comment t’en es-tu rendu compte ?',
+  'Et est-ce que les personnes qui te connaissent seraient surprises par cette qualité ?'
+],
+
+[
+  3,
+  'Les surprises',
+  'Quelle situation t’a déjà fait agir à l’opposé de tes habitudes ?',
+  'Qu’est-ce qui t’a poussé à réagir ainsi ?',
+  'Et si cette situation se reproduisait, ferais-tu la même chose ?'
+],
+
+[
+  2,
+  'Les surprises',
+  'Quelle chose les gens sont-ils toujours étonnés d’apprendre à ton sujet ?',
+  'Pourquoi cela les surprend-il autant ?',
+  'Et quelle autre facette de toi n’ont-ils probablement pas encore découverte ?'
+],
+
+
+// LES RELATIONS
+
+[
+  2,
+  'Les relations',
+  'Quelle est la chose la plus importante pour toi dans une relation avec quelqu’un ?',
+  'Pourquoi cette chose compte-t-elle autant ?',
+  'Et as-tu déjà accepté une relation où elle manquait ?'
+],
+
+[
+  3,
+  'Les relations',
+  'Qu’est-ce qui pourrait te donner envie de revoir une personne après une seule rencontre ?',
+  'Qu’est-ce qui resterait dans ton esprit ?',
+  'Et as-tu déjà fait le premier pas alors que cela ne te ressemblait pas ?'
+],
+
+[
+  3,
+  'Les relations',
+  'Quel comportement chez quelqu’un peut te faire complètement perdre tes moyens ?',
+  'Qu’est-ce que cela provoque chez toi ?',
+  'Et comment essaies-tu de cacher ta réaction ?'
+],
+
+[
+  4,
+  'Les relations',
+  'Quelle est la chose la plus inattendue qui pourrait te séduire chez quelqu’un ?',
+  'Pourquoi ce détail pourrait-il te toucher ?',
+  'Et as-tu déjà été attiré par une personne qui ne correspondait absolument pas à tes habitudes ?'
+],
+
+[
+  3,
+  'Les relations',
+  'Qu’est-ce qui te ferait accepter de sortir complètement de ta zone de confort pour quelqu’un ?',
+  'Qu’est-ce qui rendrait cette personne si importante ?',
+  'Et jusqu’où serais-tu capable d’aller sans te reconnaître toi-même ?'
+],
+
+
+// LES VÉRITÉS PERSONNELLES
+
+[
+  2,
+  'Les vérités personnelles',
+  'Quelle chose as-tu comprise sur toi avec les années ?',
+  'Qu’est-ce qui t’a permis de le comprendre ?',
+  'Et si tu pouvais en parler à la personne que tu étais il y a dix ans ?'
+],
+
+[
+  3,
+  'Les vérités personnelles',
+  'Quel aspect de ta personnalité as-tu longtemps essayé de changer ?',
+  'Pourquoi voulais-tu le modifier ?',
+  'Et as-tu finalement appris à l’accepter ?'
+],
+
+[
+  2,
+  'Les vérités personnelles',
+  'Quelle chose te rend heureux alors que d’autres pourraient la trouver sans intérêt ?',
+  'Pourquoi est-elle si importante pour toi ?',
+  'Et est-ce que tu accepterais de partager ce plaisir avec quelqu’un ici ?'
+],
+
+[
+  3,
+  'Les vérités personnelles',
+  'Dans quelle situation préfères-tu cacher ce que tu ressens réellement ?',
+  'Qu’est-ce qui te pousse à agir ainsi ?',
+  'Et quelqu’un a-t-il déjà réussi à comprendre ce que tu cachais ?'
+],
+
+[
+  4,
+  'Les vérités personnelles',
+  'Quelle vérité sur toi aurais-tu aimé comprendre beaucoup plus tôt ?',
+  'Qu’est-ce qui t’a empêché de la voir ?',
+  'Et qu’est-ce qui changerait si tout le monde te connaissait aussi bien que tu te connais aujourd’hui ?'
 ]
+
 
 
 
