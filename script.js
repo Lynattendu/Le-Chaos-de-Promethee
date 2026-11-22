@@ -1474,8 +1474,526 @@ const QUESTIONS = [
   'Quelle habitude de vie as-tu adoptée simplement pour éviter une situation que tu n’aimes pas ?',
   'Qu’est-ce que tu cherches exactement à éviter ?',
   'Et quelle serait ta réaction si quelqu’un découvrait la véritable raison de cette habitude ?'
-]
+],
 
+
+/* =========================================================
+   LE CHAOS DE PROMÉTHÉE
+   SÉRIE 7 — HUMOUR, MALICE ET RÉVÉLATIONS
+
+   60 QUESTIONS
+   120 RELANCES
+========================================================= */
+
+
+// =========================================================
+// 1. LES PETITES VENGEANCES
+// =========================================================
+
+[
+  2,
+  'Les petites vengeances',
+  'Quelle petite revanche t’a procuré une satisfaction particulière ?',
+  'Qu’est-ce qui t’avait donné envie de te venger ?',
+  'Et est-ce que la personne a compris ce qui venait de lui arriver ?'
+],
+
+[
+  2,
+  'Les petites vengeances',
+  'Quelle est ta manière préférée de faire comprendre à quelqu’un qu’il t’agace ?',
+  'Pourquoi préfères-tu cette méthode ?',
+  'Et quelle fois ton message a-t-il été compris beaucoup trop tard ?'
+],
+
+[
+  3,
+  'Les petites vengeances',
+  'Quelle chose serais-tu capable de faire uniquement pour avoir le dernier mot ?',
+  'Pourquoi est-ce important pour toi de conclure ?',
+  'Et quelle dispute as-tu déjà prolongée alors que tu savais avoir tort ?'
+],
+
+[
+  2,
+  'Les petites vengeances',
+  'Quelle petite satisfaction ressens-tu parfois quand quelqu’un qui t’a contrarié se trompe ?',
+  'Est-ce que tu arrives à cacher cette satisfaction ?',
+  'Et as-tu déjà savouré ce moment un peu trop ouvertement ?'
+],
+
+[
+  3,
+  'Les petites vengeances',
+  'Quelle est la façon la plus élégante que tu connaisses de remettre quelqu’un à sa place ?',
+  'Pourquoi cette méthode fonctionne-t-elle ?',
+  'Et quelle réplique aurais-tu aimé trouver sur le moment, mais qui t’est venue trop tard ?'
+],
+
+[
+  2,
+  'Les petites vengeances',
+  'Qu’est-ce qui pourrait te pousser à organiser une petite farce à quelqu’un ?',
+  'Comment saurais-tu que cette personne apprécierait la plaisanterie ?',
+  'Et quelle farce t’a déjà valu un retour de bâton ?'
+],
+
+[
+  3,
+  'Les petites vengeances',
+  'Quand quelqu’un cherche à te provoquer, quelle réaction te procure le plus de satisfaction ?',
+  'Pourquoi choisis-tu cette réaction ?',
+  'Et quand as-tu volontairement fait exactement le contraire de ce que la personne attendait ?'
+],
+
+[
+  2,
+  'Les petites vengeances',
+  'Quelle situation t’a déjà donné envie de dire : « Je te l’avais bien dit » ?',
+  'Pourquoi avais-tu vu venir le problème ?',
+  'Et as-tu résisté à la tentation de prononcer cette phrase ?'
+],
+
+[
+  3,
+  'Les petites vengeances',
+  'Quelle petite injustice du quotidien t’agace beaucoup plus qu’elle ne le devrait ?',
+  'Pourquoi celle-là te touche-t-elle autant ?',
+  'Et quelle solution personnelle as-tu déjà inventée pour ne plus la subir ?'
+],
+
+[
+  4,
+  'Les petites vengeances',
+  'Si tu pouvais organiser une revanche parfaitement inoffensive contre quelqu’un qui t’a fait une mauvaise blague, que préparerais-tu ?',
+  'Qu’est-ce qui rendrait cette revanche particulièrement satisfaisante ?',
+  'Et jusqu’où irais-tu pour garder la surprise jusqu’au dernier moment ?'
+],
+
+
+// =========================================================
+// 2. LA GOURMANDISE ET LES PLAISIRS DE TABLE
+// =========================================================
+
+[
+  1,
+  'La gourmandise',
+  'Quel aliment pourrais-tu manger plusieurs jours de suite sans te lasser ?',
+  'Qu’est-ce que tu apprécies autant dans cet aliment ?',
+  'Et avec quelle combinaison inattendue oserais-tu le manger ?'
+],
+
+[
+  2,
+  'La gourmandise',
+  'Quel plat te rappelle immédiatement une personne ou un moment particulier ?',
+  'Qu’est-ce qui rend ce souvenir si présent ?',
+  'Et serais-tu capable de retrouver exactement le même plaisir aujourd’hui ?'
+],
+
+[
+  2,
+  'La gourmandise',
+  'Quelle habitude à table pourrait faire halluciner les autres ?',
+  'Depuis quand fais-tu cela ?',
+  'Et serais-tu capable de la défendre devant un grand chef cuisinier ?'
+],
+
+[
+  2,
+  'La gourmandise',
+  'Quelle est la chose la plus surprenante que tu aies goûtée ?',
+  'Qu’est-ce qui t’avait donné envie de goûter ?',
+  'Et si tu devais convaincre quelqu’un ici de tenter la même expérience ?'
+],
+
+[
+  3,
+  'La gourmandise',
+  'Pour quel repas serais-tu capable de faire un très long détour ?',
+  'Qu’est-ce qui rendrait ce repas exceptionnel ?',
+  'Et quelle distance serais-tu réellement prêt à parcourir ?'
+],
+
+[
+  2,
+  'La gourmandise',
+  'Quelle règle de savoir-vivre à table trouves-tu inutile ?',
+  'Pourquoi cette règle te dérange-t-elle ?',
+  'Et comment réagirais-tu si quelqu’un la transgressait lors d’un dîner très chic ?'
+],
+
+[
+  3,
+  'La gourmandise',
+  'Quel est le repas le plus mémorable auquel tu aies participé ?',
+  'Qu’est-ce qui l’a rendu inoubliable ?',
+  'Et quelle partie de cette soirée pourrait encore faire rire les invités ?'
+],
+
+[
+  2,
+  'La gourmandise',
+  'Quelle spécialité que beaucoup de gens adorent ne te donne absolument pas envie ?',
+  'Qu’est-ce qui te rebute dans cette spécialité ?',
+  'Et pour quelle récompense accepterais-tu d’en manger une assiette entière ?'
+],
+
+[
+  3,
+  'La gourmandise',
+  'Quelle expérience culinaire accepterais-tu de tenter les yeux bandés ?',
+  'Qu’est-ce qui te ferait suffisamment confiance pour essayer ?',
+  'Et quel aliment espérerais-tu surtout ne pas découvrir dans ton assiette ?'
+],
+
+[
+  4,
+  'La gourmandise',
+  'Si tu devais préparer un dîner pour impressionner quelqu’un, quelle serait ta stratégie ?',
+  'Pourquoi choisirais-tu cette approche ?',
+  'Et qu’est-ce que tu ferais si tout tournait mal juste avant son arrivée ?'
+],
+
+
+// =========================================================
+// 3. LES VOYAGES ET LES AVENTURES
+// =========================================================
+
+[
+  1,
+  'Les aventures',
+  'Quel endroit t’a surpris beaucoup plus que tu ne l’imaginais ?',
+  'Qu’est-ce qui t’a marqué en arrivant ?',
+  'Et quelle expérience inattendue y as-tu vécue ?'
+],
+
+[
+  2,
+  'Les aventures',
+  'Quand tu pars quelque part, quel détail est indispensable pour que tu sois heureux ?',
+  'Pourquoi ce détail compte-t-il autant ?',
+  'Et qu’est-ce qui pourrait te faire accepter de t’en passer complètement ?'
+],
+
+[
+  2,
+  'Les aventures',
+  'Quelle mésaventure de voyage est devenue une bonne histoire à raconter ?',
+  'Comment as-tu réagi sur le moment ?',
+  'Et quel détail avais-tu oublié de raconter à ton retour ?'
+],
+
+[
+  3,
+  'Les aventures',
+  'Quelle destination choisirais-tu pour découvrir une version différente de toi-même ?',
+  'Qu’aimerais-tu découvrir là-bas ?',
+  'Et qu’est-ce que tu oserais sur place que tu ne fais jamais chez toi ?'
+],
+
+[
+  2,
+  'Les aventures',
+  'Quel genre de compagnon de voyage pourrait rapidement t’épuiser ?',
+  'Qu’est-ce qui serait le plus difficile à supporter ?',
+  'Et comment ferais-tu pour survivre à quinze jours ensemble ?'
+],
+
+[
+  3,
+  'Les aventures',
+  'Si tu devais partir demain avec seulement trois objets personnels, lesquels prendrais-tu ?',
+  'Pourquoi ces trois objets précisément ?',
+  'Et quel objet totalement embarrassant aurais-tu envie d’ajouter en cachette ?'
+],
+
+[
+  2,
+  'Les aventures',
+  'Quelle activité touristique très populaire ne t’attire absolument pas ?',
+  'Qu’est-ce qui ne te plaît pas dans cette activité ?',
+  'Et si tout le groupe voulait absolument la faire ?'
+],
+
+[
+  3,
+  'Les aventures',
+  'Quel voyage pourrais-tu faire uniquement pour retrouver une sensation particulière ?',
+  'Quelle sensation rechercherais-tu ?',
+  'Et quelle expérience passée te donne encore envie de repartir ?'
+],
+
+[
+  3,
+  'Les aventures',
+  'Quelle situation à l’étranger t’a déjà obligé à communiquer autrement que par les mots ?',
+  'Comment as-tu réussi à te faire comprendre ?',
+  'Et quel malentendu aurait pu rendre la scène encore plus mémorable ?'
+],
+
+[
+  4,
+  'Les aventures',
+  'Quelle aventure accepterais-tu de vivre sans connaître tous les détails à l’avance ?',
+  'Quelle part d’inconnu te plairait le plus ?',
+  'Et quelle information te ferait immédiatement changer d’avis ?'
+],
+
+
+// =========================================================
+// 4. LES SITUATIONS EMBARRASSANTES
+// =========================================================
+
+[
+  2,
+  'Les moments gênants',
+  'Quelle est la fois où tu as répondu à quelqu’un en croyant qu’il s’adressait à toi ?',
+  'Comment as-tu compris ton erreur ?',
+  'Et as-tu essayé de faire comme si rien ne s’était passé ?'
+],
+
+[
+  2,
+  'Les moments gênants',
+  'Quelle conversation as-tu déjà entendue alors que tu n’étais clairement pas censé l’entendre ?',
+  'Comment t’es-tu retrouvé dans cette situation ?',
+  'Et comment as-tu réussi à ne pas montrer que tu avais tout entendu ?'
+],
+
+[
+  3,
+  'Les moments gênants',
+  'Quelle est la fois où tu as oublié le prénom de quelqu’un au pire moment ?',
+  'Comment as-tu essayé de t’en sortir ?',
+  'Et combien de temps as-tu tenu avant de te faire démasquer ?'
+],
+
+[
+  2,
+  'Les moments gênants',
+  'Quel message as-tu déjà envoyé à la mauvaise personne ?',
+  'Comment as-tu découvert ton erreur ?',
+  'Et quelle excuse as-tu trouvée pour expliquer ce message ?'
+],
+
+[
+  3,
+  'Les moments gênants',
+  'Quelle remarque as-tu déjà faite avant de découvrir que la personne concernée était juste derrière toi ?',
+  'Quelle a été ta première réaction ?',
+  'Et comment as-tu essayé de retourner la situation à ton avantage ?'
+],
+
+[
+  2,
+  'Les moments gênants',
+  'Quelle est la plus grande confusion que tu aies faite entre deux personnes ?',
+  'Pourquoi les as-tu confondues ?',
+  'Et jusqu’où as-tu laissé durer le malentendu avant de reconnaître ton erreur ?'
+],
+
+[
+  3,
+  'Les moments gênants',
+  'Quelle est la pire situation dans laquelle ton téléphone t’a déjà mis ?',
+  'Pourquoi ce moment était-il aussi gênant ?',
+  'Et qu’aurait-il pu afficher ou diffuser de pire encore ?'
+],
+
+[
+  3,
+  'Les moments gênants',
+  'Quel compliment as-tu déjà fait et qui a été complètement mal interprété ?',
+  'Que voulais-tu réellement dire ?',
+  'Et comment as-tu essayé de corriger cette impression ?'
+],
+
+[
+  4,
+  'Les moments gênants',
+  'Quelle rencontre t’a déjà mis mal à l’aise pour une raison que tu ne pouvais pas expliquer ?',
+  'Qu’est-ce qui provoquait ce malaise ?',
+  'Et quelle aurait été la pire question qu’on aurait pu te poser à ce moment-là ?'
+],
+
+[
+  4,
+  'Les moments gênants',
+  'Quel moment aurais-tu aimé pouvoir mettre sur pause pour réfléchir avant de parler ?',
+  'Quelle phrase aurais-tu voulu éviter ?',
+  'Et qu’aurais-tu réellement envie de dire aujourd’hui à la personne présente ce jour-là ?'
+],
+
+
+// =========================================================
+// 5. LES PARIS ET LES DÉFIS
+// =========================================================
+
+[
+  1,
+  'Les défis',
+  'Quel défi pourrais-tu relever sans aucune préparation ?',
+  'Pourquoi penses-tu pouvoir le réussir ?',
+  'Et accepterais-tu de le tenter maintenant devant tout le monde ?'
+],
+
+[
+  2,
+  'Les défis',
+  'Quelle compétition totalement inutile prendrais-tu pourtant très au sérieux ?',
+  'Pourquoi aurais-tu autant envie de gagner ?',
+  'Et quelle technique utiliserais-tu pour battre les autres ?'
+],
+
+[
+  2,
+  'Les défis',
+  'Quel pari as-tu déjà remporté alors que personne ne croyait en toi ?',
+  'Pourquoi avais-tu accepté ce pari ?',
+  'Et quelle a été la réaction des personnes qui te pensaient incapable de réussir ?'
+],
+
+[
+  3,
+  'Les défis',
+  'Quelle chose accepterais-tu de faire sur un simple pari entre amis ?',
+  'Qu’est-ce qui te motiverait à accepter ?',
+  'Et quelle condition te ferait immédiatement refuser ?'
+],
+
+[
+  2,
+  'Les défis',
+  'Dans quel domaine pourrais-tu battre facilement les personnes présentes autour de cette table ?',
+  'Qu’est-ce qui te donne autant confiance ?',
+  'Et qui ici pourrait finalement te réserver une mauvaise surprise ?'
+],
+
+[
+  3,
+  'Les défis',
+  'Quel défi personnel t’es-tu fixé sans jamais en parler à personne ?',
+  'Pourquoi as-tu choisi de le garder pour toi ?',
+  'Et quelle récompense t’accorderais-tu si tu réussissais ?'
+],
+
+[
+  2,
+  'Les défis',
+  'Quel jeu ou activité te transforme en mauvais perdant ?',
+  'Qu’est-ce qui te fait perdre ton sang-froid ?',
+  'Et quelle excuse utilises-tu pour prétendre que tu t’en fiches ?'
+],
+
+[
+  3,
+  'Les défis',
+  'Quelle chose as-tu déjà apprise uniquement pour prouver à quelqu’un que tu pouvais le faire ?',
+  'Pourquoi voulais-tu autant lui donner tort ?',
+  'Et cette personne a-t-elle reconnu ta réussite ?'
+],
+
+[
+  3,
+  'Les défis',
+  'Si tu devais faire une démonstration de ton talent le plus inattendu, que choisirais-tu ?',
+  'Comment as-tu appris à faire cela ?',
+  'Et est-ce que tu accepterais de nous montrer ta technique sans préparation ?'
+],
+
+[
+  4,
+  'Les défis',
+  'Quel défi accepterais-tu plus facilement après quelques compliments ?',
+  'Pourquoi les compliments auraient-ils autant d’effet sur toi ?',
+  'Et quel défi as-tu déjà accepté simplement parce qu’on avait touché ton ego ?'
+],
+
+
+// =========================================================
+// 6. LES PLAISIRS INAVOUABLES
+// =========================================================
+
+[
+  2,
+  'Les plaisirs cachés',
+  'Quelle émission ou quel programme regardes-tu parfois sans avoir envie de le reconnaître ?',
+  'Qu’est-ce qui te plaît secrètement dans ce programme ?',
+  'Et si on découvrait ton historique de visionnage, qu’est-ce qui surprendrait le plus ?'
+],
+
+[
+  2,
+  'Les plaisirs cachés',
+  'Quelle chanson connais-tu parfaitement alors que tu prétends ne pas l’aimer ?',
+  'Comment as-tu fini par la connaître aussi bien ?',
+  'Et accepterais-tu d’en interpréter le refrain devant nous ?'
+],
+
+[
+  3,
+  'Les plaisirs cachés',
+  'Quelle activité très simple te procure une satisfaction disproportionnée ?',
+  'Qu’est-ce qui rend ce moment si agréable ?',
+  'Et combien de temps pourrais-tu y consacrer sans voir le temps passer ?'
+],
+
+[
+  2,
+  'Les plaisirs cachés',
+  'Quelle chose apprécies-tu particulièrement quand tu as enfin la maison pour toi tout seul ?',
+  'Pourquoi est-ce différent quand tu es seul ?',
+  'Et quelle scène surprendrait quelqu’un qui rentrerait sans prévenir ?'
+],
+
+[
+  3,
+  'Les plaisirs cachés',
+  'Quel petit luxe t’accordes-tu même quand tu sais que ce n’est pas très raisonnable ?',
+  'Qu’est-ce qui le rend difficile à abandonner ?',
+  'Et quel luxe encore plus extravagant aimerais-tu essayer ?'
+],
+
+[
+  2,
+  'Les plaisirs cachés',
+  'Quelle activité considérée comme ennuyeuse par beaucoup de gens trouves-tu étonnamment agréable ?',
+  'Qu’est-ce qui te plaît dans cette activité ?',
+  'Et pourrais-tu convaincre une personne ici de partager ce plaisir avec toi ?'
+],
+
+[
+  3,
+  'Les plaisirs cachés',
+  'Quelle petite victoire personnelle célèbres-tu parfois sans que personne ne le sache ?',
+  'Pourquoi cette victoire compte-t-elle autant ?',
+  'Et comment la célèbres-tu lorsque personne ne te regarde ?'
+],
+
+[
+  3,
+  'Les plaisirs cachés',
+  'Quelle chose très ordinaire peut te procurer un véritable sentiment de liberté ?',
+  'Qu’est-ce qui te donne cette sensation ?',
+  'Et quelle contrainte aimerais-tu voir disparaître pour en profiter davantage ?'
+],
+
+[
+  4,
+  'Les plaisirs cachés',
+  'Quelle expérience réservée habituellement à une occasion spéciale aimerais-tu pouvoir vivre plus souvent ?',
+  'Qu’est-ce qui la rend si attirante ?',
+  'Et quelle excuse serais-tu capable d’inventer pour t’offrir cette expérience ?'
+],
+
+[
+  4,
+  'Les plaisirs cachés',
+  'Quel plaisir aimerais-tu partager avec quelqu’un mais n’as-tu encore jamais trouvé la bonne personne ?',
+  'Qu’est-ce que tu aimerais vivre ensemble ?',
+  'Et quelle proposition originale pourrais-tu faire pour convaincre quelqu’un de t’accompagner ?'
+]
 
 
 
