@@ -1993,8 +1993,569 @@ const QUESTIONS = [
   'Quel plaisir aimerais-tu partager avec quelqu’un mais n’as-tu encore jamais trouvé la bonne personne ?',
   'Qu’est-ce que tu aimerais vivre ensemble ?',
   'Et quelle proposition originale pourrais-tu faire pour convaincre quelqu’un de t’accompagner ?'
-]
+],
 
+
+/* =========================================================
+   LE CHAOS DE PROMÉTHÉE
+   SÉRIE 8 — LES 100 CARTES DE L'IMPRÉVISIBLE
+
+   100 QUESTIONS PRINCIPALES
+   200 RELANCES
+   10 THÈMES
+========================================================= */
+
+
+// =========================================================
+// 1. LA RÉPUTATION — 10 CARTES
+// =========================================================
+
+[2,'La réputation',
+'Quel surnom pourrait te correspondre si tes proches devaient t’en inventer un aujourd’hui ?',
+'Quelle particularité de ton caractère inspirerait ce surnom ?',
+'Et quel surnom existant préférerais-tu ne surtout pas entendre ici ?'],
+
+[2,'La réputation',
+'Quelle histoire racontée à ton sujet a fini par devenir plus célèbre que toi ?',
+'Comment cette histoire a-t-elle commencé ?',
+'Et quelle partie a été largement embellie au fil des années ?'],
+
+[3,'La réputation',
+'Quel détail de ta vie pourrait donner une idée totalement fausse de ta personnalité ?',
+'Pourquoi serait-il aussi trompeur ?',
+'Et comment réagirais-tu si tout le monde te jugeait uniquement sur ce détail ?'],
+
+[2,'La réputation',
+'Pour quelle chose aimerais-tu que les gens viennent spontanément te demander conseil ?',
+'Qu’est-ce qui te rendrait légitime pour les aider ?',
+'Et dans quel domaine vaudrait-il mieux ne surtout pas suivre tes conseils ?'],
+
+[3,'La réputation',
+'Quel compliment te ferait particulièrement plaisir parce qu’on ne te le fait presque jamais ?',
+'Pourquoi celui-ci aurait-il autant de valeur ?',
+'Et serais-tu capable de croire quelqu’un qui te le dirait très sérieusement ?'],
+
+[2,'La réputation',
+'Quelle légende pourrait naître à ton sujet si quelqu’un interprétait mal une de tes habitudes ?',
+'Quelle habitude serait à l’origine de cette légende ?',
+'Et serais-tu tenté de laisser cette histoire circuler pour t’amuser ?'],
+
+[3,'La réputation',
+'Quelle partie de ton caractère pourrait te rendre célèbre dans une émission de télévision ?',
+'Pourquoi les téléspectateurs la remarqueraient-ils ?',
+'Et quelle séquence risquerait de devenir virale malgré toi ?'],
+
+[2,'La réputation',
+'Quel avis sur toi aimerais-tu entendre de la bouche d’une personne qui te connaît depuis vingt ans ?',
+'Pourquoi son regard serait-il intéressant ?',
+'Et quelle remarque de sa part te surprendrait vraiment ?'],
+
+[3,'La réputation',
+'Quelle réputation complètement injustifiée pourrais-tu entretenir simplement pour t’amuser ?',
+'Qu’est-ce qui rendrait cette réputation amusante ?',
+'Et combien de temps tiendrais-tu avant de révéler la plaisanterie ?'],
+
+[4,'La réputation',
+'Si un réalisateur voulait tourner un documentaire sur ta vie privée, quelle partie mériterait le titre le plus intrigant ?',
+'Pourquoi cette période serait-elle intéressante à raconter ?',
+'Et quelle scène demanderais-tu immédiatement à couper au montage ?'],
+
+
+// =========================================================
+// 2. LES OBJETS ET POSSESSIONS — 10 CARTES
+// =========================================================
+
+[1,'Les objets',
+'Quel objet utilises-tu d’une manière complètement différente de celle pour laquelle il a été inventé ?',
+'Comment as-tu découvert cette utilisation ?',
+'Et serais-tu capable de convaincre son fabricant que ton idée est meilleure ?'],
+
+[2,'Les objets',
+'Quel objet refuses-tu de remplacer alors qu’il a manifestement fait son temps ?',
+'Pourquoi y tiens-tu encore ?',
+'Et dans quel état faudrait-il qu’il soit pour que tu acceptes enfin de t’en séparer ?'],
+
+[2,'Les objets',
+'Qu’est-ce que le contenu de ton sac ou de tes poches pourrait raconter sur toi ?',
+'Quel objet serait le plus révélateur ?',
+'Et lequel aurait le plus besoin d’une explication devant tes collègues ?'],
+
+[1,'Les objets',
+'Quel appareil du quotidien mériterait d’avoir une fonction supplémentaire spécialement conçue pour toi ?',
+'Quel problème voudrais-tu résoudre ?',
+'Et quelle fonction totalement excessive aimerais-tu secrètement ajouter ?'],
+
+[2,'Les objets',
+'Quel objet serais-tu incapable de retrouver chez toi sans entreprendre une véritable expédition ?',
+'Pourquoi se retrouve-t-il toujours au mauvais endroit ?',
+'Et quelle découverte inattendue pourrais-tu faire en le cherchant ?'],
+
+[3,'Les objets',
+'Quel objet as-tu conservé uniquement parce que tu n’as jamais su quoi en faire ?',
+'Qu’est-ce qui t’empêche de t’en débarrasser ?',
+'Et accepterais-tu de le donner à quelqu’un ici sans lui expliquer son histoire ?'],
+
+[2,'Les objets',
+'Si un objet chez toi pouvait raconter tout ce qu’il a vu, lequel te ferait le plus rire ?',
+'Quelles scènes pourrait-il raconter ?',
+'Et quel passage de son témoignage voudrais-tu interrompre immédiatement ?'],
+
+[1,'Les objets',
+'Quel objet possèdes-tu en plusieurs exemplaires alors qu’un seul devrait suffire ?',
+'Pourquoi continues-tu à en accumuler ?',
+'Et combien en faudrait-il pour que tu trouves enfin cela excessif ?'],
+
+[3,'Les objets',
+'Quel objet pourrait déclencher une longue discussion si quelqu’un le découvrait par hasard chez toi ?',
+'Quelle serait ta première explication ?',
+'Et quelle interprétation totalement erronée pourrait-on en faire ?'],
+
+[4,'Les objets',
+'Si tu devais choisir un objet pour représenter ton côté le plus imprévisible, lequel prendrais-tu ?',
+'Qu’est-ce qui fait le lien entre cet objet et toi ?',
+'Et quelle histoire personnelle faudrait-il raconter pour vraiment comprendre ton choix ?'],
+
+
+// =========================================================
+// 3. LES CONVERSATIONS — 10 CARTES
+// =========================================================
+
+[2,'Les conversations',
+'Quel sujet pourrait te faire parler pendant une heure sans t’arrêter ?',
+'Qu’est-ce qui te passionne autant dans ce sujet ?',
+'Et à quel moment tes interlocuteurs commencent-ils à regretter de t’avoir lancé ?'],
+
+[2,'Les conversations',
+'Quelle question aimerais-tu qu’on te pose plus souvent ?',
+'Pourquoi aimerais-tu y répondre ?',
+'Et quelle réponse surprenante donnerais-tu aujourd’hui ?'],
+
+[3,'Les conversations',
+'Quelle expression utilises-tu régulièrement sans t’en rendre compte ?',
+'Comment cette expression est-elle entrée dans tes habitudes ?',
+'Et quelqu’un a-t-il déjà commencé à t’imiter à cause d’elle ?'],
+
+[2,'Les conversations',
+'Quel sujet de discussion arrives-tu à rendre intéressant même lorsqu’il paraît ennuyeux ?',
+'Quelle approche utilises-tu pour captiver les autres ?',
+'Et serais-tu capable de nous passionner avec ce sujet pendant une minute ?'],
+
+[3,'Les conversations',
+'Quelle phrase as-tu déjà dite spontanément avant de te rendre compte de son double sens ?',
+'Dans quelles circonstances l’as-tu prononcée ?',
+'Et comment as-tu réagi quand les autres ont commencé à rire ?'],
+
+[2,'Les conversations',
+'Quelle question toute simple peut déclencher chez toi une réponse interminable ?',
+'Pourquoi as-tu autant de choses à raconter à ce sujet ?',
+'Et quelle personne a déjà regretté de te l’avoir posée ?'],
+
+[3,'Les conversations',
+'Quel sujet préfères-tu aborder avec humour plutôt que sérieusement ?',
+'Pourquoi le rire te semble-t-il plus naturel ?',
+'Et quelle fois ton humour a-t-il été pris beaucoup trop au sérieux ?'],
+
+[2,'Les conversations',
+'Quelle conversation aurais-tu aimé enregistrer simplement parce qu’elle était mémorable ?',
+'Qu’est-ce qui l’a rendue aussi particulière ?',
+'Et quelle phrase aurait mérité de devenir une citation célèbre ?'],
+
+[3,'Les conversations',
+'Quel mot ou quelle expression change complètement de sens selon la personne qui le prononce ?',
+'Pourquoi ce changement te frappe-t-il ?',
+'Et peux-tu nous montrer deux façons opposées de le prononcer ?'],
+
+[4,'Les conversations',
+'Quelle conversation serait particulièrement difficile à tenir en gardant un visage sérieux ?',
+'Qu’est-ce qui te ferait perdre ton sérieux ?',
+'Et quelle phrase provoquerait immédiatement ton premier fou rire ?'],
+
+
+// =========================================================
+// 4. LES CHOIX DE GROUPE — 10 CARTES
+// =========================================================
+
+[2,'Les choix collectifs',
+'Quand plusieurs personnes doivent choisir un restaurant, quelle méthode te paraît la plus efficace ?',
+'Pourquoi cette méthode te convient-elle ?',
+'Et comment réagis-tu quand personne ne veut prendre la décision ?'],
+
+[2,'Les choix collectifs',
+'Quel rôle aimerais-tu avoir si votre groupe devait organiser une grande fête surprise ?',
+'Qu’est-ce qui ferait de toi la bonne personne pour ce rôle ?',
+'Et quelle mission risquerait de tourner à la catastrophe entre tes mains ?'],
+
+[3,'Les choix collectifs',
+'Quand tout le monde approuve une idée qui ne te plaît pas, comment te comportes-tu ?',
+'Qu’est-ce qui influence ta décision de parler ou de te taire ?',
+'Et as-tu déjà suivi le groupe en sachant que cela allait mal finir ?'],
+
+[2,'Les choix collectifs',
+'Quelle règle proposerais-tu pour rendre une réunion entre amis beaucoup plus amusante ?',
+'Qu’est-ce que cette règle changerait ?',
+'Et quel problème imprévu pourrait-elle déclencher dès les premières minutes ?'],
+
+[3,'Les choix collectifs',
+'Si le groupe devait te confier une mission importante pendant une soirée, laquelle accepterais-tu ?',
+'Pourquoi penses-tu être à la hauteur ?',
+'Et quelle mission faudrait-il absolument éviter de te confier ?'],
+
+[2,'Les choix collectifs',
+'Qu’est-ce qui peut transformer une simple sortie entre amis en un souvenir mémorable ?',
+'Quel ingrédient te semble indispensable ?',
+'Et quelle sortie ordinaire a déjà fini beaucoup plus tard que prévu ?'],
+
+[3,'Les choix collectifs',
+'Quand une décision collective tourne mal, quelle est ta manière de réagir ?',
+'Qu’est-ce qui te semble prioritaire à ce moment-là ?',
+'Et as-tu déjà été secrètement content de ne pas être responsable du choix ?'],
+
+[2,'Les choix collectifs',
+'Quel genre d’activité pourrait réunir des personnes qui n’ont presque aucun goût en commun ?',
+'Pourquoi cette activité fonctionnerait-elle ?',
+'Et comment convaincrais-tu les deux personnes les plus réticentes ?'],
+
+[3,'Les choix collectifs',
+'Quelle tradition complètement nouvelle aimerais-tu inventer pour votre groupe ?',
+'Qu’est-ce qu’elle apporterait à vos rencontres ?',
+'Et quelle règle pourrait rendre cette tradition totalement imprévisible ?'],
+
+[4,'Les choix collectifs',
+'Si votre groupe devait créer une entreprise uniquement pour s’amuser, quel serait son concept ?',
+'Pourquoi cette idée pourrait-elle fonctionner ?',
+'Et quelle serait la première dispute entre les associés ?'],
+
+
+// =========================================================
+// 5. LES SITUATIONS DÉLICATES — 10 CARTES
+// =========================================================
+
+[2,'Les situations délicates',
+'Comment réagis-tu lorsqu’on t’offre un cadeau qui ne te plaît absolument pas ?',
+'Qu’est-ce que tu essaies de faire comprendre à la personne ?',
+'Et quel cadeau t’a déjà demandé un véritable talent d’acteur ?'],
+
+[3,'Les situations délicates',
+'Que fais-tu quand quelqu’un te raconte pour la quatrième fois exactement la même histoire ?',
+'Qu’est-ce qui te retient de l’interrompre ?',
+'Et quelle stratégie as-tu déjà employée pour éviter la cinquième version ?'],
+
+[2,'Les situations délicates',
+'Comment réagis-tu lorsqu’un invité semble décidé à ne jamais repartir ?',
+'Qu’est-ce qui t’empêche de lui demander franchement de partir ?',
+'Et quelle technique de plus en plus évidente pourrais-tu utiliser ?'],
+
+[3,'Les situations délicates',
+'Que fais-tu lorsqu’une personne te demande un avis honnête sur quelque chose qu’elle adore et que tu détestes ?',
+'Comment choisis-tu tes mots ?',
+'Et quel avis as-tu déjà regretté d’avoir donné trop franchement ?'],
+
+[2,'Les situations délicates',
+'Comment réagis-tu quand quelqu’un te reconnaît mais que tu n’as aucune idée de qui il s’agit ?',
+'Comment essaies-tu de gagner du temps ?',
+'Et jusqu’où pourrais-tu pousser la conversation sans demander son identité ?'],
+
+[3,'Les situations délicates',
+'Que fais-tu lorsqu’un ami te demande de garder une surprise que tu as très envie de raconter ?',
+'Comment résistes-tu à l’envie de parler ?',
+'Et quelle révélation t’a déjà échappé beaucoup trop tôt ?'],
+
+[2,'Les situations délicates',
+'Quelle est ta réaction lorsqu’on t’invite à participer à une activité que tu ne maîtrises absolument pas ?',
+'Qu’est-ce qui te pousse à accepter ou refuser ?',
+'Et as-tu déjà bluffé sur ton niveau avant de devoir faire une démonstration ?'],
+
+[3,'Les situations délicates',
+'Comment réagis-tu quand quelqu’un te demande ton avis alors qu’il semble avoir déjà pris sa décision ?',
+'Qu’est-ce qui te fait comprendre qu’il n’écoute pas vraiment ?',
+'Et t’est-il déjà arrivé de lui donner volontairement une réponse inattendue ?'],
+
+[3,'Les situations délicates',
+'Que fais-tu lorsqu’une personne te parle pendant que tu essaies désespérément de te concentrer ?',
+'Comment lui fais-tu comprendre la situation ?',
+'Et quelle distraction a déjà provoqué chez toi une erreur mémorable ?'],
+
+[4,'Les situations délicates',
+'Quelle situation sociale te donnerait envie d’avoir un bouton pour disparaître immédiatement ?',
+'Qu’est-ce qui la rendrait aussi inconfortable ?',
+'Et quelle sortie théâtrale pourrais-tu inventer pour t’en échapper ?'],
+
+
+// =========================================================
+// 6. LES ÉMOTIONS — 10 CARTES
+// =========================================================
+
+[2,'Les émotions',
+'Quelle chose peut t’émouvoir alors que tu ne t’y attends jamais ?',
+'Pourquoi cela te touche-t-il ?',
+'Et as-tu déjà essayé de dissimuler cette émotion devant d’autres personnes ?'],
+
+[2,'Les émotions',
+'Quel petit événement peut te donner l’impression d’avoir réussi ta journée ?',
+'Qu’est-ce qui lui donne autant d’importance ?',
+'Et est-ce une satisfaction que les personnes ici pourraient comprendre ?'],
+
+[3,'Les émotions',
+'Quand tu ressens une grande joie, quelle est ta première envie ?',
+'Pourquoi cette réaction vient-elle naturellement ?',
+'Et quel comportement particulièrement exubérant as-tu déjà eu ?'],
+
+[2,'Les émotions',
+'Quelle chose te rend nostalgique alors qu’elle paraît tout à fait ordinaire ?',
+'Quel souvenir y associes-tu ?',
+'Et que ressentirais-tu si tu pouvais revivre exactement ce moment pendant cinq minutes ?'],
+
+[3,'Les émotions',
+'Comment sais-tu qu’une situation te tient vraiment à cœur ?',
+'Quel changement remarques-tu chez toi ?',
+'Et quelle fois as-tu découvert trop tard à quel point cela comptait ?'],
+
+[2,'Les émotions',
+'Quel geste d’une autre personne peut transformer une journée difficile en une bonne journée ?',
+'Pourquoi ce geste fonctionne-t-il ?',
+'Et as-tu déjà été surpris par la personne qui l’a fait ?'],
+
+[3,'Les émotions',
+'Qu’est-ce qui te fait passer instantanément du sérieux au fou rire ?',
+'Pourquoi ce déclencheur est-il aussi efficace ?',
+'Et quelle fois as-tu dû quitter une pièce pour retrouver ton calme ?'],
+
+[2,'Les émotions',
+'Quelle musique, odeur ou ambiance peut modifier ton humeur sans que tu comprennes pourquoi ?',
+'Quel souvenir ou quelle sensation y associes-tu ?',
+'Et quelle réaction inattendue pourrait-elle provoquer chez toi en public ?'],
+
+[3,'Les émotions',
+'Quelle bonne nouvelle aurais-tu beaucoup de mal à garder pour toi pendant une journée entière ?',
+'Pourquoi aurais-tu besoin de la partager ?',
+'Et à qui risquerais-tu de la révéler en premier par accident ?'],
+
+[4,'Les émotions',
+'Quelle émotion as-tu du mal à reconnaître sur le moment mais comprends beaucoup mieux après coup ?',
+'Qu’est-ce qui t’empêche de l’identifier immédiatement ?',
+'Et quelle situation t’a déjà fait découvrir cette émotion de manière surprenante ?'],
+
+
+// =========================================================
+// 7. LES JEUX DE RÔLE — 10 CARTES
+// =========================================================
+
+[1,'Les personnages',
+'Si tu devais présenter la météo avec ton style personnel, à quoi ressemblerait ton bulletin ?',
+'Quel ton adopterais-tu naturellement ?',
+'Et comment annoncerais-tu une catastrophe météorologique en restant optimiste ?'],
+
+[2,'Les personnages',
+'Si tu devais jouer le méchant dans une comédie, quelle serait ta particularité ?',
+'Qu’est-ce qui rendrait ton personnage mémorable ?',
+'Et quelle faiblesse ferait échouer tous tes plans ?'],
+
+[2,'Les personnages',
+'Quel personnage célèbre serais-tu incapable d’imiter correctement mais essaierais-tu quand même ?',
+'Pourquoi ce personnage te tente-t-il ?',
+'Et accepterais-tu de nous en proposer une version très personnelle ?'],
+
+[3,'Les personnages',
+'Si tu étais responsable du recrutement pour une expédition sur Mars, quel critère inattendu utiliserais-tu ?',
+'Pourquoi ce critère serait-il important ?',
+'Et quelle question poserais-tu pour démasquer les candidats qui bluffent ?'],
+
+[1,'Les personnages',
+'Si tu devais ouvrir une école pour enseigner quelque chose de totalement personnel, quelle matière proposerais-tu ?',
+'Quelle serait ta première leçon ?',
+'Et pour quelle raison un élève pourrait-il être renvoyé de ton cours ?'],
+
+[2,'Les personnages',
+'Quel rôle aimerais-tu jouer dans un film où tous les autres joueurs seraient également acteurs ?',
+'Qu’est-ce qui te plairait dans ce personnage ?',
+'Et quelle scène souhaiterais-tu improviser avec le groupe ?'],
+
+[3,'Les personnages',
+'Si tu devenais le porte-parole officiel des personnes qui aiment ne rien faire, quel serait ton premier discours ?',
+'Quel argument défendrais-tu avec le plus de conviction ?',
+'Et comment justifierais-tu ton salaire sans jamais travailler ?'],
+
+[2,'Les personnages',
+'Si tu ouvrais un musée consacré à un aspect de ta vie, quelle serait son exposition principale ?',
+'Qu’est-ce que les visiteurs pourraient découvrir ?',
+'Et quelle salle serait strictement interdite aux moins curieux ?'],
+
+[3,'Les personnages',
+'Si tu devais inventer une fausse publicité pour toi-même, quel serait ton argument de vente ?',
+'Quelle qualité mettrais-tu en avant ?',
+'Et quel avertissement honnête faudrait-il ajouter en très petits caractères ?'],
+
+[4,'Les personnages',
+'Si tu devais tenir un rôle complètement opposé à ton caractère pendant toute une soirée, quel personnage choisirais-tu ?',
+'Quelle serait la partie la plus difficile à jouer ?',
+'Et qui serait le premier à te démasquer en te voyant agir ?'],
+
+
+// =========================================================
+// 8. NOTRE RAPPORT AU TEMPS — 10 CARTES
+// =========================================================
+
+[1,'Le temps',
+'Quelle activité te semble toujours durer cinq minutes alors qu’elle prend beaucoup plus longtemps ?',
+'Qu’est-ce qui te fait perdre la notion de la durée ?',
+'Et quel rendez-vous as-tu déjà failli manquer à cause de ça ?'],
+
+[2,'Le temps',
+'Quel moment de la journée voudrais-tu pouvoir prolonger d’une heure ?',
+'Pourquoi celui-ci précisément ?',
+'Et que ferais-tu de cette heure supplémentaire si personne ne pouvait te déranger ?'],
+
+[2,'Le temps',
+'Quelle tâche repousses-tu régulièrement alors qu’elle prendrait très peu de temps ?',
+'Qu’est-ce qui te donne si peu envie de commencer ?',
+'Et depuis combien de temps certaines de ces tâches attendent-elles ?'],
+
+[3,'Le temps',
+'Quelle période de ta vie a semblé passer beaucoup trop vite ?',
+'Qu’est-ce qui la rendait si particulière ?',
+'Et quel détail aurais-tu aimé prendre davantage le temps d’apprécier ?'],
+
+[2,'Le temps',
+'Quand tu arrives beaucoup trop tôt quelque part, comment occupes-tu ton attente ?',
+'Pourquoi choisis-tu cette occupation ?',
+'Et quelle chose inattendue as-tu déjà découverte en attendant ?'],
+
+[3,'Le temps',
+'Quelle occasion mériterait selon toi de devenir un jour férié personnel ?',
+'Pourquoi voudrais-tu la célébrer chaque année ?',
+'Et quelle tradition surprenante imposerais-tu à ceux qui voudraient participer ?'],
+
+[2,'Le temps',
+'Quelle chose te paraît interminable alors que les autres semblent l’apprécier ?',
+'Qu’est-ce qui rend ce moment si long pour toi ?',
+'Et quelle stratégie as-tu développée pour accélérer le temps dans ta tête ?'],
+
+[3,'Le temps',
+'Quel projet pourrais-tu commencer avec enthousiasme mais abandonner dès que la nouveauté disparaît ?',
+'Qu’est-ce qui te plaît surtout au début ?',
+'Et combien de projets inachevés pourraient témoigner contre toi ?'],
+
+[2,'Le temps',
+'Quelle activité ferais-tu différemment si tu devais obligatoirement prendre deux fois plus de temps ?',
+'Qu’est-ce que tu changerais dans ta manière de faire ?',
+'Et découvrirais-tu finalement un plaisir que tu négligeais ?'],
+
+[4,'Le temps',
+'Si tu pouvais réserver chaque année une journée entièrement effacée de ton agenda, comment l’utiliserais-tu ?',
+'Qu’est-ce qui rendrait cette journée spéciale ?',
+'Et quelle activité n’oserais-tu pas inscrire sur un agenda visible de tous ?'],
+
+
+// =========================================================
+// 9. LES SCÉNARIOS DE SOCIÉTÉ — 10 CARTES
+// =========================================================
+
+[1,'Les scénarios',
+'Si tout le monde devait inventer sa propre poignée de main, à quoi ressemblerait la tienne ?',
+'Qu’est-ce qu’elle dirait de toi ?',
+'Et accepterais-tu de nous faire une démonstration ?'],
+
+[2,'Les scénarios',
+'Si les adultes devaient avoir une récréation obligatoire chaque jour, comment devrait-elle se dérouler ?',
+'Quelle activité faudrait-il absolument prévoir ?',
+'Et quelle règle risquerait rapidement de transformer la récréation en compétition ?'],
+
+[2,'Les scénarios',
+'Si chaque personne devait afficher un message d’accueil avant qu’on lui adresse la parole, qu’écrirais-tu ?',
+'Pourquoi choisirais-tu ce message ?',
+'Et quel message afficherais-tu pendant une très mauvaise journée ?'],
+
+[3,'Les scénarios',
+'Si tu pouvais changer une seule règle de politesse pour toute la société, que proposerais-tu ?',
+'Qu’est-ce que cela améliorerait selon toi ?',
+'Et quel comportement aujourd’hui mal vu deviendrait soudainement acceptable ?'],
+
+[2,'Les scénarios',
+'Si une machine pouvait préparer parfaitement une chose à ta place chaque matin, que lui demanderais-tu ?',
+'Pourquoi ce service serait-il précieux ?',
+'Et quelle erreur de programmation rendrait la machine particulièrement pénible ?'],
+
+[3,'Les scénarios',
+'Si les humains devaient obligatoirement porter un badge indiquant leur niveau d’énergie, comment utiliserais-tu cette information ?',
+'Qu’est-ce que cela changerait dans les relations ?',
+'Et à quel moment souhaiterais-tu pouvoir truquer ton propre badge ?'],
+
+[2,'Les scénarios',
+'Si les conversations devaient commencer par une question plutôt que par une salutation, laquelle choisirais-tu ?',
+'Pourquoi cette question serait-elle intéressante ?',
+'Et quelle réponse pourrait immédiatement mettre les deux personnes dans l’embarras ?'],
+
+[3,'Les scénarios',
+'Si tu pouvais ajouter un bouton à la vie quotidienne pour simplifier les relations humaines, que ferait-il ?',
+'Quel problème voudrais-tu éviter grâce à ce bouton ?',
+'Et comment pourrait-on en abuser de façon comique ?'],
+
+[3,'Les scénarios',
+'Si chacun devait posséder une mascotte représentant son caractère, quel animal ou objet choisirais-tu ?',
+'Quelle particularité partageriez-vous ?',
+'Et quelle mauvaise habitude cette mascotte aurait-elle héritée de toi ?'],
+
+[4,'Les scénarios',
+'Si toute la société devait vivre une journée sans pouvoir utiliser de prétextes, qu’est-ce qui changerait le plus ?',
+'Quelle situation deviendrait particulièrement délicate ?',
+'Et quelle vérité du quotidien aurait beaucoup plus de mal à passer ?'],
+
+
+// =========================================================
+// 10. LES RÉVÉLATIONS INATTENDUES — 10 CARTES
+// =========================================================
+
+[2,'Les révélations',
+'Quelle chose fais-tu beaucoup mieux lorsque personne ne t’observe ?',
+'Pourquoi la présence des autres change-t-elle ta façon d’agir ?',
+'Et quelle démonstration ratée pourrait prouver exactement le contraire de ton talent ?'],
+
+[2,'Les révélations',
+'Quel détail très précis peut te permettre de reconnaître une personne après plusieurs années ?',
+'Pourquoi ce détail reste-t-il aussi présent dans ta mémoire ?',
+'Et quelle personne serais-tu incapable de reconnaître malgré des années passées ensemble ?'],
+
+[3,'Les révélations',
+'Quel sujet possèdes-tu des connaissances étonnamment détaillées sans raison évidente ?',
+'Comment as-tu appris tout cela ?',
+'Et quelle information pourrais-tu nous donner qui nous laisserait complètement perplexes ?'],
+
+[2,'Les révélations',
+'Quelle tradition personnelle as-tu inventée sans jamais vraiment l’expliquer aux autres ?',
+'Comment cette tradition est-elle apparue ?',
+'Et quelle serait la réaction de tes proches si tu décidais de l’imposer à tout le monde ?'],
+
+[3,'Les révélations',
+'Quelle chose du quotidien peux-tu reconnaître uniquement grâce à son bruit ?',
+'Comment as-tu développé cette capacité ?',
+'Et serais-tu capable de réussir un test les yeux fermés ?'],
+
+[2,'Les révélations',
+'Quel souvenir très précis gardes-tu d’une journée dont tout le reste t’a échappé ?',
+'Pourquoi ce petit détail est-il resté ?',
+'Et serait-il possible que les autres personnes présentes s’en souviennent complètement différemment ?'],
+
+[3,'Les révélations',
+'Quel comportement chez toi change sensiblement selon la saison ?',
+'Qu’est-ce qui explique cette différence ?',
+'Et quelle version saisonnière de toi serait la plus difficile à supporter en vacances ?'],
+
+[2,'Les révélations',
+'Quel savoir-faire complètement démodé aimerais-tu transmettre à quelqu’un ?',
+'Pourquoi tiens-tu à ce savoir-faire ?',
+'Et quelle réaction aurais-tu si on te disait qu’une application fait déjà beaucoup mieux ?'],
+
+[3,'Les révélations',
+'Quelle chose as-tu déjà réussie par pur hasard alors que tu prétendais parfaitement savoir ce que tu faisais ?',
+'Qu’est-ce qui t’a permis de maintenir les apparences ?',
+'Et as-tu accepté les compliments sans jamais révéler la vérité ?'],
+
+[4,'Les révélations',
+'Quelle expérience apparemment banale a finalement modifié ta façon de voir une situation ?',
+'Quel détail a provoqué ce changement ?',
+'Et quelle personne autour de cette table serait la plus étonnée d’apprendre ce que tu en as retenu ?']
+
+// FIN DE LA SÉRIE 8
 
 
 
