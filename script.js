@@ -2553,9 +2553,545 @@ const QUESTIONS = [
 [4,'Les révélations',
 'Quelle expérience apparemment banale a finalement modifié ta façon de voir une situation ?',
 'Quel détail a provoqué ce changement ?',
-'Et quelle personne autour de cette table serait la plus étonnée d’apprendre ce que tu en as retenu ?']
+'Et quelle personne autour de cette table serait la plus étonnée d’apprendre ce que tu en as retenu ?'],
 
 // FIN DE LA SÉRIE 8
+
+/* =========================================================
+   LE CHAOS DE PROMÉTHÉE
+   SÉRIE 9 — LES 100 NOUVELLES CARTES
+========================================================= */
+
+// 1. LES MALADRESSES HUMAINES
+
+[1,'Les maladresses',
+'Quelle petite maladresse te ressemble particulièrement ?',
+'À quel moment te joue-t-elle des tours ?',
+'Et quelle fois a-t-elle provoqué un fou rire général ?'],
+
+[2,'Les maladresses',
+'Quelle chose arrives-tu à renverser presque systématiquement ?',
+'Pourquoi cela t’arrive-t-il aussi souvent ?',
+'Et quelle catastrophe as-tu déjà évitée de justesse ?'],
+
+[2,'Les maladresses',
+'Quelle erreur de manipulation as-tu déjà commise avec un appareil que tu utilisais pourtant depuis des années ?',
+'Comment as-tu réussi cette erreur ?',
+'Et qui était présent pour assister à cet exploit ?'],
+
+[1,'Les maladresses',
+'Quel geste tout simple rates-tu régulièrement sans comprendre pourquoi ?',
+'Qu’est-ce qui te complique la tâche ?',
+'Et accepterais-tu de le refaire devant nous ?'],
+
+[2,'Les maladresses',
+'Quelle confusion as-tu déjà faite en lisant une indication ou une pancarte ?',
+'Comment as-tu découvert ton erreur ?',
+'Et jusqu’où cette mauvaise lecture t’a-t-elle entraîné ?'],
+
+[3,'Les maladresses',
+'Quelle situation t’a déjà obligé à prétendre que tout était volontaire alors que tu venais de faire une énorme maladresse ?',
+'Pourquoi as-tu préféré sauver les apparences ?',
+'Et combien de personnes ont réellement cru à ton explication ?'],
+
+[2,'Les maladresses',
+'Quelle erreur de tenue ou d’habillement as-tu découverte beaucoup trop tard ?',
+'À quel moment t’en es-tu aperçu ?',
+'Et combien de personnes avaient probablement déjà remarqué le problème ?'],
+
+[1,'Les maladresses',
+'Quel objet as-tu déjà cherché longtemps alors qu’il était juste devant toi ?',
+'Pourquoi ne le voyais-tu pas ?',
+'Et quelqu’un t’a-t-il laissé chercher simplement pour rire ?'],
+
+[3,'Les maladresses',
+'Quelle démonstration censée être impressionnante s’est transformée en véritable fiasco ?',
+'À quel moment as-tu compris que cela tournait mal ?',
+'Et comment as-tu terminé la démonstration malgré tout ?'],
+
+[2,'Les maladresses',
+'Quelle maladresse d’une autre personne t’a fait rire alors que tu aurais dû rester sérieux ?',
+'Qu’est-ce qui rendait la scène si drôle ?',
+'Et la personne a-t-elle fini par rire avec toi ?'],
+
+
+// 2. LES INVENTIONS
+
+[1,'Les inventions',
+'Quel problème minuscule du quotidien mériterait une invention révolutionnaire ?',
+'Pourquoi ce problème te dérange-t-il autant ?',
+'Et quel prix serais-tu prêt à payer pour cette invention ?'],
+
+[2,'Les inventions',
+'Quelle machine complètement inutile aimerais-tu pourtant posséder ?',
+'À quoi te servirait-elle réellement ?',
+'Et comment justifierais-tu cet achat auprès de ton entourage ?'],
+
+[2,'Les inventions',
+'Si tu pouvais créer un nouveau parfum, quelle odeur choisirais-tu ?',
+'Quel souvenir voudrais-tu provoquer ?',
+'Et quelle personne serait totalement horrifiée par ton parfum ?'],
+
+[1,'Les inventions',
+'Quel objet du quotidien devrait obligatoirement être équipé d’un bouton secret ?',
+'À quoi servirait ce bouton ?',
+'Et dans quelle situation son utilisation deviendrait-elle très embarrassante ?'],
+
+[2,'Les inventions',
+'Quelle invention actuelle te semble encore beaucoup trop compliquée à utiliser ?',
+'Qu’est-ce que tu voudrais simplifier ?',
+'Et quelle erreur ridicule as-tu déjà commise en essayant de la comprendre ?'],
+
+[3,'Les inventions',
+'Si tu devais commercialiser une invention destinée aux personnes paresseuses, que proposerais-tu ?',
+'Pourquoi serait-elle irrésistible ?',
+'Et quel slogan utiliserais-tu pour convaincre les plus courageux ?'],
+
+[2,'Les inventions',
+'Quelle fonction aimerais-tu ajouter à ton miroir ?',
+'Qu’est-ce que tu voudrais apprendre ou obtenir grâce à elle ?',
+'Et quelle fonction risquerait de devenir insupportable après trois jours ?'],
+
+[3,'Les inventions',
+'Si une intelligence artificielle pouvait imiter parfaitement ta voix, quelle utilisation amusante en ferais-tu ?',
+'Qu’est-ce qui rendrait cette imitation convaincante ?',
+'Et quelle phrase ne voudrais-tu surtout pas qu’elle prononce en public ?'],
+
+[2,'Les inventions',
+'Quel objet aimerais-tu pouvoir miniaturiser pour toujours le transporter avec toi ?',
+'Pourquoi cet objet serait-il si utile ?',
+'Et à quel moment sa présence pourrait-elle surprendre tout le monde ?'],
+
+[3,'Les inventions',
+'Quelle invention du futur pourrait complètement bouleverser tes habitudes personnelles ?',
+'Qu’est-ce que tu adopterais immédiatement ?',
+'Et quelle fonction refuserais-tu absolument d’activer ?'],
+
+
+// 3. ENTRE AMIS
+
+[1,'Entre amis',
+'Quelle tradition entre amis mériterait de durer toute une vie ?',
+'Qu’est-ce qui la rend si agréable ?',
+'Et quelle modification pourrait la rendre encore plus mémorable ?'],
+
+[2,'Entre amis',
+'Quelle activité te semble beaucoup plus drôle à plusieurs que tout seul ?',
+'Qu’est-ce qui change lorsque les autres sont présents ?',
+'Et quelle fois le groupe a-t-il complètement détourné l’activité prévue ?'],
+
+[2,'Entre amis',
+'Qu’est-ce qui te fait reconnaître immédiatement une soirée qui s’annonce mémorable ?',
+'Quels sont les premiers signes ?',
+'Et quelle soirée a commencé calmement pour finir complètement autrement ?'],
+
+[3,'Entre amis',
+'Quel genre de plaisanterie entre amis te fait rire pendant des années ?',
+'Pourquoi cette plaisanterie ne vieillit-elle jamais ?',
+'Et quelle histoire pourrait encore être racontée dans vingt ans ?'],
+
+[2,'Entre amis',
+'Qu’est-ce que tu apprécies le plus chez une personne avec laquelle tu peux rester longtemps sans parler ?',
+'Qu’est-ce qui rend ce silence agréable ?',
+'Et dans quelle situation serais-tu incapable de rester silencieux ?'],
+
+[3,'Entre amis',
+'Quelle activité entre amis as-tu déjà acceptée sans vraiment savoir dans quoi tu t’engageais ?',
+'Comment t’a-t-on présenté cette activité ?',
+'Et à quel moment as-tu compris qu’on avait oublié quelques détails ?'],
+
+[2,'Entre amis',
+'Quel détail peut transformer une simple invitation en quelque chose que tu attends avec impatience ?',
+'Pourquoi ce détail fait-il la différence ?',
+'Et quelle invitation inattendue t’a déjà particulièrement enthousiasmé ?'],
+
+[3,'Entre amis',
+'Quelle chose arrives-tu à raconter beaucoup plus facilement à plusieurs qu’en tête-à-tête ?',
+'Qu’est-ce qui rend cette situation plus confortable ?',
+'Et as-tu déjà regretté qu’une conversation de groupe devienne soudainement très silencieuse ?'],
+
+[2,'Entre amis',
+'Quelle activité aimerais-tu organiser avec un groupe qui accepte de jouer le jeu à fond ?',
+'Qu’est-ce qui rendrait cette activité amusante ?',
+'Et quelle consigne spéciale imposerais-tu dès le départ ?'],
+
+[3,'Entre amis',
+'Quel comportement des autres te fait immédiatement comprendre que tu es vraiment à l’aise dans un groupe ?',
+'Qu’est-ce que cela change dans ta manière d’être ?',
+'Et quelle facette inattendue de toi apparaît à ce moment-là ?'],
+
+
+// 4. LES GRANDS DÉBATS LÉGERS
+
+[1,'Les débats',
+'Quelle habitude du quotidien devrait faire l’objet d’une règle universelle ?',
+'Pourquoi cette règle serait-elle utile ?',
+'Et quelle exception voudrais-tu absolument obtenir pour toi-même ?'],
+
+[2,'Les débats',
+'Quelle chose semble très facile à tout le monde mais demande selon toi un véritable savoir-faire ?',
+'Qu’est-ce qui la rend plus compliquée qu’il n’y paraît ?',
+'Et accepterais-tu de démontrer ta technique devant le groupe ?'],
+
+[2,'Les débats',
+'Quel comportement banal devrait selon toi être récompensé par une médaille ?',
+'Pourquoi mériterait-il une récompense ?',
+'Et quelle personne ici pourrait prétendre à cette médaille ?'],
+
+[1,'Les débats',
+'Quelle activité est bien meilleure le matin que le soir, ou l’inverse ?',
+'Qu’est-ce qui change selon le moment ?',
+'Et quelle expérience pourrait te convaincre de changer d’avis ?'],
+
+[2,'Les débats',
+'Quelle règle non écrite de la vie quotidienne devrait être officiellement expliquée à tout le monde ?',
+'Pourquoi devrait-on la connaître ?',
+'Et quelle situation gênante pourrait-elle éviter ?'],
+
+[3,'Les débats',
+'Quelle chose considérée comme luxueuse trouve-tu finalement assez décevante ?',
+'Qu’est-ce qui ne correspond pas à sa réputation ?',
+'Et comment convaincrais-tu quelqu’un qui rêve de cette expérience ?'],
+
+[2,'Les débats',
+'Quel petit service devrait toujours être gratuit selon toi ?',
+'Pourquoi le trouves-tu si essentiel ?',
+'Et quelle contrepartie amusante accepterais-tu à la place de l’argent ?'],
+
+[3,'Les débats',
+'Quel objet ou usage mériterait un championnat du monde officiel ?',
+'Quelles seraient les règles de la compétition ?',
+'Et dans quelle catégorie pourrais-tu devenir champion ?'],
+
+[2,'Les débats',
+'Quelle chose les adultes devraient-ils apprendre à faire avant un certain âge ?',
+'Pourquoi cela te semble-t-il important ?',
+'Et combien de personnes autour de cette table réussiraient ton examen ?'],
+
+[3,'Les débats',
+'Quelle situation rendrait acceptable un comportement normalement considéré comme impoli ?',
+'Pourquoi ferais-tu une exception ?',
+'Et quel exemple pourrait diviser complètement le groupe ?'],
+
+
+// 5. LES ANIMAUX
+
+[1,'Les animaux',
+'Quel comportement animal trouves-tu étonnamment proche de celui des humains ?',
+'Qu’est-ce qui te fait penser cela ?',
+'Et dans quelle situation pourrais-tu te reconnaître dans cet animal ?'],
+
+[2,'Les animaux',
+'Si tu pouvais discuter cinq minutes avec un animal, lequel choisirais-tu ?',
+'Quelle serait ta première question ?',
+'Et quelle réponse risquerait de te décevoir énormément ?'],
+
+[2,'Les animaux',
+'Quelle rencontre avec un animal t’a laissé un souvenir particulièrement drôle ?',
+'Qu’est-ce qui s’est passé exactement ?',
+'Et comment raconterait-il cette rencontre s’il pouvait parler ?'],
+
+[1,'Les animaux',
+'Quel animal choisirais-tu comme gardien d’un trésor sans aucune valeur ?',
+'Pourquoi serait-il parfait pour cette mission ?',
+'Et comment empêcherais-tu les curieux de découvrir que le trésor ne vaut rien ?'],
+
+[2,'Les animaux',
+'Quelle chose aimerais-tu apprendre à un animal s’il pouvait vraiment te comprendre ?',
+'À quoi cela te servirait-il ?',
+'Et quelle mauvaise habitude risquerait-il d’apprendre en t’observant ?'],
+
+[3,'Les animaux',
+'Si un animal devait raconter tes habitudes quotidiennes, que remarquerait-il en premier ?',
+'Qu’est-ce qui lui semblerait étrange ?',
+'Et quelle habitude jugerait-il complètement incompréhensible ?'],
+
+[2,'Les animaux',
+'Quelle espèce animale serait la plus difficile à accueillir comme colocataire ?',
+'Quel serait le principal problème ?',
+'Et quelle règle de vie devrais-tu imposer dès le premier jour ?'],
+
+[1,'Les animaux',
+'Quel animal pourrait te servir d’entraîneur personnel ?',
+'Quelle qualité aimerais-tu lui emprunter ?',
+'Et quelle partie de son entraînement refuserais-tu immédiatement ?'],
+
+[3,'Les animaux',
+'Si les animaux domestiques pouvaient laisser des avis sur leurs propriétaires, quel commentaire te ferait rire ?',
+'Sur quoi porteraient leurs critiques ?',
+'Et quelle note te donnerait ton propre animal, réel ou imaginaire ?'],
+
+[2,'Les animaux',
+'Quelle aptitude animale serait la plus pratique dans ta vie quotidienne ?',
+'Dans quelle situation l’utiliserais-tu ?',
+'Et quel usage complètement futile en ferais-tu en premier ?'],
+
+
+// 6. LES FÊTES ET CÉLÉBRATIONS
+
+[1,'Les fêtes',
+'Quelle occasion aimerais-tu célébrer alors que personne n’y pense jamais ?',
+'Pourquoi mériterait-elle une fête ?',
+'Et quelle tradition originale inventerais-tu pour cette occasion ?'],
+
+[2,'Les fêtes',
+'Quel détail peut transformer une fête ordinaire en une soirée exceptionnelle ?',
+'Pourquoi ce détail change-t-il autant l’ambiance ?',
+'Et quelle fête t’a déjà surpris grâce à quelque chose de très simple ?'],
+
+[2,'Les fêtes',
+'Quelle chanson déclenche chez toi une envie immédiate de participer à la fête ?',
+'Qu’est-ce qui la rend aussi efficace ?',
+'Et accepterais-tu de lancer la danse tout seul si personne ne bougeait ?'],
+
+[3,'Les fêtes',
+'Quel rôle prends-tu naturellement quand une fête commence à devenir très animée ?',
+'Pourquoi te retrouves-tu dans ce rôle ?',
+'Et quelle fois as-tu surpris les autres par ton comportement ?'],
+
+[2,'Les fêtes',
+'Quelle décoration de fête pourrait être complètement exagérée sans te déranger ?',
+'Qu’est-ce qui te plaît dans cette exagération ?',
+'Et comment pousserais-tu l’idée encore plus loin ?'],
+
+[3,'Les fêtes',
+'Quelle fête ou célébration a pris une direction totalement imprévue ?',
+'Quel événement a provoqué ce changement ?',
+'Et quelle partie est devenue le meilleur souvenir de la soirée ?'],
+
+[2,'Les fêtes',
+'Quel thème de soirée aimerais-tu imposer au moins une fois ?',
+'Qu’est-ce qui te plaît dans cette ambiance ?',
+'Et quel costume choisirais-tu pour provoquer le plus de réactions ?'],
+
+[3,'Les fêtes',
+'Quel cadeau collectif totalement inattendu pourrait faire plaisir à quelqu’un qui possède déjà tout ?',
+'Pourquoi choisirais-tu ce cadeau ?',
+'Et comment organiserais-tu sa remise pour provoquer un grand fou rire ?'],
+
+[2,'Les fêtes',
+'Quel moment d’une fête attends-tu généralement le plus ?',
+'Qu’est-ce qui le rend spécial pour toi ?',
+'Et quelle fois ce moment a-t-il complètement dépassé tes attentes ?'],
+
+[4,'Les fêtes',
+'Quelle soirée aimerais-tu revivre uniquement pour observer à nouveau les réactions de certaines personnes ?',
+'Qu’est-ce qui rendait leurs réactions mémorables ?',
+'Et quelle scène aimerais-tu revoir depuis un autre point de vue ?'],
+
+
+// 7. LES RENCONTRES FORTUITES
+
+[2,'Les rencontres fortuites',
+'Quelle rencontre a commencé par un malentendu finalement très amusant ?',
+'Comment le malentendu a-t-il été dissipé ?',
+'Et auriez-vous continué à discuter si tout avait été clair dès le départ ?'],
+
+[2,'Les rencontres fortuites',
+'Quelle conversation inattendue t’a fait découvrir un univers que tu ne connaissais pas ?',
+'Qu’est-ce qui t’a intrigué ?',
+'Et quelle nouvelle curiosité cette discussion a-t-elle déclenchée ?'],
+
+[3,'Les rencontres fortuites',
+'Quelle personne inconnue t’a déjà rendu un service au moment où tu ne t’y attendais pas ?',
+'Qu’est-ce qui t’a marqué dans son geste ?',
+'Et quelle réaction aurais-tu eue si elle t’avait demandé quelque chose en retour ?'],
+
+[2,'Les rencontres fortuites',
+'Quelle question posée par un inconnu t’a déjà complètement déstabilisé ?',
+'Pourquoi ne t’y attendais-tu pas ?',
+'Et quelle réponse aurais-tu aimé trouver immédiatement ?'],
+
+[3,'Les rencontres fortuites',
+'Quel événement t’a déjà rapproché temporairement de personnes avec lesquelles tu n’avais rien en commun ?',
+'Qu’est-ce qui vous a réunis ?',
+'Et quel souvenir avez-vous finalement partagé ?'],
+
+[2,'Les rencontres fortuites',
+'Quelle personne croisée brièvement t’a laissé une impression étonnamment durable ?',
+'Quel détail t’a particulièrement marqué ?',
+'Et que lui demanderais-tu si tu la retrouvais par hasard ?'],
+
+[3,'Les rencontres fortuites',
+'Quelle conversation as-tu déjà engagée uniquement parce qu’un détail avait éveillé ta curiosité ?',
+'Quel était ce détail ?',
+'Et quelle révélation inattendue as-tu obtenue ?'],
+
+[2,'Les rencontres fortuites',
+'Quelle rencontre a changé complètement le déroulement d’une journée ordinaire ?',
+'Qu’est-ce qui s’est passé ensuite ?',
+'Et que serait devenue cette journée sans cette rencontre ?'],
+
+[3,'Les rencontres fortuites',
+'Quelle personne as-tu déjà recroisée dans un endroit où tu ne t’attendais absolument pas à la voir ?',
+'Comment avez-vous réagi ?',
+'Et quelle coïncidence supplémentaire aurait rendu cette rencontre encore plus incroyable ?'],
+
+[4,'Les rencontres fortuites',
+'Quelle rencontre imprévue aurait pu prendre une direction totalement différente si tu avais prononcé une autre phrase ?',
+'Quelle phrase a changé la suite ?',
+'Et que penses-tu qu’il se serait passé avec une réponse plus audacieuse ?'],
+
+
+// 8. LES MESSAGES ET COMMUNICATIONS
+
+[1,'Les messages',
+'Quelle sorte de message te fait sourire avant même que tu l’aies ouvert ?',
+'Qu’est-ce qui te met dans cet état ?',
+'Et quel message inattendu t’a déjà fait rire plusieurs minutes ?'],
+
+[2,'Les messages',
+'Quelle habitude as-tu lorsque tu dois répondre à un message particulièrement long ?',
+'Pourquoi adoptes-tu cette méthode ?',
+'Et combien de messages attendent parfois une réponse de ta part ?'],
+
+[2,'Les messages',
+'Quelle expression ou quel emoji utilises-tu d’une façon que les autres ne comprennent pas toujours ?',
+'Quel sens lui donnes-tu ?',
+'Et quel malentendu cela a-t-il déjà provoqué ?'],
+
+[3,'Les messages',
+'Quelle conversation par messages est devenue beaucoup plus compliquée qu’elle ne l’aurait été en face à face ?',
+'Qu’est-ce qui provoquait les difficultés ?',
+'Et quelle phrase aurait suffi à régler le problème immédiatement ?'],
+
+[2,'Les messages',
+'Quel type de notification te donne envie de regarder ton téléphone immédiatement ?',
+'Pourquoi a-t-elle autant d’importance ?',
+'Et quelle notification complètement banale t’a déjà fait espérer quelque chose de beaucoup plus intéressant ?'],
+
+[3,'Les messages',
+'Quelle erreur de correction automatique t’a déjà fait écrire quelque chose de complètement différent ?',
+'Comment l’as-tu découverte ?',
+'Et quelle réaction a provoqué le message avant que tu puisses le corriger ?'],
+
+[2,'Les messages',
+'Quelle chose préfères-tu toujours expliquer oralement plutôt que par écrit ?',
+'Qu’est-ce qui se perd lorsque tu l’écris ?',
+'Et quel message écrit a déjà été interprété d’une manière inattendue ?'],
+
+[3,'Les messages',
+'Quelle est la dernière conversation que tu as relue simplement parce qu’elle t’avait fait plaisir ?',
+'Qu’est-ce qui la rendait agréable ?',
+'Et quelle phrase t’avait particulièrement marqué ?'],
+
+[2,'Les messages',
+'Quel genre de message vocal pourrais-tu enregistrer sans jamais réussir à être bref ?',
+'Pourquoi aurais-tu autant de choses à dire ?',
+'Et quelle durée te semblerait déjà beaucoup trop longue pour celui qui le reçoit ?'],
+
+[4,'Les messages',
+'Quelle phrase pourrais-tu envoyer à quelqu’un qui prendrait un sens complètement différent sans son contexte ?',
+'Quel serait le contexte réel ?',
+'Et comment réagirais-tu si cette phrase était lue à voix haute devant un groupe ?'],
+
+
+// 9. LES NÉGOCIATIONS
+
+[2,'Les négociations',
+'Quelle chose arrives-tu particulièrement bien à obtenir sans jamais insister lourdement ?',
+'Quelle méthode utilises-tu ?',
+'Et quelle fois cette méthode a-t-elle fonctionné beaucoup mieux que prévu ?'],
+
+[2,'Les négociations',
+'Quand tu dois convaincre quelqu’un, quel argument utilises-tu généralement en premier ?',
+'Pourquoi fais-tu confiance à cet argument ?',
+'Et quel type de personne reste complètement insensible à cette méthode ?'],
+
+[3,'Les négociations',
+'Quelle situation pourrait te pousser à accepter un compromis que tu trouves pourtant mauvais ?',
+'Qu’est-ce qui te ferait céder ?',
+'Et comment expliquerais-tu ensuite ce compromis aux autres ?'],
+
+[2,'Les négociations',
+'Quel service pourrais-tu échanger contre un autre sans utiliser d’argent ?',
+'Pourquoi cet échange serait-il intéressant ?',
+'Et quelle proposition totalement inattendue accepterais-tu d’étudier ?'],
+
+[3,'Les négociations',
+'Quelle chose préfères-tu obtenir par la patience plutôt que par la persuasion ?',
+'Pourquoi la patience te semble-t-elle plus efficace ?',
+'Et combien de temps serais-tu réellement capable d’attendre ?'],
+
+[2,'Les négociations',
+'Quelle règle proposerais-tu pour départager deux personnes qui veulent exactement la même chose ?',
+'Pourquoi cette règle serait-elle juste ?',
+'Et dans quelle situation demanderais-tu immédiatement une exception ?'],
+
+[3,'Les négociations',
+'Quel argument pourrait te faire accepter une activité dont tu n’as aucune envie ?',
+'Pourquoi cet argument fonctionnerait-il ?',
+'Et quelle promesse exigerais-tu pour accepter définitivement ?'],
+
+[2,'Les négociations',
+'Quelle situation te pousse à marchander alors que le montant n’est pas vraiment important ?',
+'Qu’est-ce qui te plaît dans cette négociation ?',
+'Et quelle réduction dérisoire t’a déjà procuré une grande satisfaction ?'],
+
+[3,'Les négociations',
+'Quelle concession fais-tu facilement pour préserver la bonne ambiance ?',
+'Pourquoi celle-ci plutôt qu’une autre ?',
+'Et à quel moment déciderais-tu que tu as déjà assez cédé ?'],
+
+[4,'Les négociations',
+'Si tu devais convaincre un groupe entier d’accepter une idée originale, comment présenterais-tu ton projet ?',
+'Quel argument serait le plus convaincant ?',
+'Et quelle partie du projet présenterais-tu seulement après avoir obtenu leur enthousiasme ?'],
+
+
+// 10. LES RÉACTIONS IMPRÉVUES
+
+[1,'Les réactions imprévues',
+'Quelle bonne surprise pourrait te faire oublier instantanément ce que tu étais en train de faire ?',
+'Pourquoi serait-elle aussi réjouissante ?',
+'Et quelle activité importante pourrais-tu abandonner sur-le-champ ?'],
+
+[2,'Les réactions imprévues',
+'Que fais-tu quand tu réalises que tout le monde te regarde sans que tu saches pourquoi ?',
+'Quelle est ta première pensée ?',
+'Et quelle explication imaginerais-tu avant de découvrir la vérité ?'],
+
+[2,'Les réactions imprévues',
+'Comment réagirais-tu si quelqu’un t’applaudissait soudainement sans aucune explication ?',
+'Qu’essaierais-tu de comprendre ?',
+'Et comment pourrais-tu transformer cette scène en spectacle improvisé ?'],
+
+[3,'Les réactions imprévues',
+'Quelle chose pourrait te faire interrompre une discussion passionnante immédiatement ?',
+'Pourquoi cela attirerait-il toute ton attention ?',
+'Et comment expliquerais-tu cette interruption aux autres ?'],
+
+[2,'Les réactions imprévues',
+'Que ferais-tu si tout le monde commençait à rire alors que tu venais de dire quelque chose de parfaitement sérieux ?',
+'Comment chercherais-tu à comprendre ?',
+'Et serais-tu capable de continuer sans rire toi-même ?'],
+
+[3,'Les réactions imprévues',
+'Quelle annonce inattendue pourrait te faire rester complètement silencieux pendant plusieurs secondes ?',
+'Qu’est-ce qui te surprendrait autant ?',
+'Et quelle serait probablement ta première phrase après ce silence ?'],
+
+[2,'Les réactions imprévues',
+'Comment réagirais-tu si une personne te félicitait pour quelque chose que tu n’as jamais fait ?',
+'Comment chercherais-tu à éclaircir la situation ?',
+'Et combien de temps laisserais-tu durer le malentendu pour comprendre son origine ?'],
+
+[3,'Les réactions imprévues',
+'Quelle situation pourrait te faire éclater de rire alors que personne d’autre ne trouve cela drôle ?',
+'Qu’est-ce qui déclencherait ton rire ?',
+'Et comment expliquerais-tu ton amusement sans vexer personne ?'],
+
+[3,'Les réactions imprévues',
+'Que ferais-tu si tu recevais une invitation mystérieuse pour une activité dont tu ignores tout ?',
+'Quelle information chercherais-tu en premier ?',
+'Et quel indice pourrait suffire à te faire accepter avec enthousiasme ?'],
+
+[4,'Les réactions imprévues',
+'Quelle situation inattendue pourrait te pousser à révéler un talent ou une compétence que tu gardais habituellement pour toi ?',
+'Pourquoi choisirais-tu ce moment pour le montrer ?',
+'Et comment réagirais-tu si tous les autres te demandaient immédiatement une démonstration ?'],
+
+// FIN SÉRIE 9
 
 
 
