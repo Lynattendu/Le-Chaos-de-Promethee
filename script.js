@@ -1195,7 +1195,287 @@ const QUESTIONS = [
   'Quelle vérité sur toi aurais-tu aimé comprendre beaucoup plus tôt ?',
   'Qu’est-ce qui t’a empêché de la voir ?',
   'Et qu’est-ce qui changerait si tout le monde te connaissait aussi bien que tu te connais aujourd’hui ?'
+],
+   
+/* =========================================================
+   LE CHAOS DE PROMÉTHÉE
+   SÉRIE 6 — LES FACETTES INCONNUES
+
+   30 NOUVELLES QUESTIONS
+   60 RELANCES
+   NIVEAUX 1 À 4
+========================================================= */
+
+
+// =========================================================
+// 1. LES SOUVENIRS
+// =========================================================
+
+[
+  1,
+  'Les souvenirs',
+  'Quel souvenir de ton enfance te fait encore sourire aujourd’hui ?',
+  'Qu’est-ce qui rend ce souvenir si particulier ?',
+  'Et quelle version de cette histoire raconterait ta famille ?'
+],
+
+[
+  2,
+  'Les souvenirs',
+  'Quelle bêtise de jeunesse t’a laissé une leçon que tu n’as jamais oubliée ?',
+  'Qu’as-tu compris après cette expérience ?',
+  'Et quelle partie de cette histoire ferait le plus rire les personnes ici ?'
+],
+
+[
+  2,
+  'Les souvenirs',
+  'Quelle personne de ton passé aimerais-tu retrouver juste pour discuter une heure ?',
+  'Qu’aimerais-tu lui raconter en premier ?',
+  'Et quelle question n’avais-tu jamais osé lui poser à l’époque ?'
+],
+
+[
+  3,
+  'Les souvenirs',
+  'Quelle histoire de ton adolescence racontes-tu aujourd’hui très différemment de la façon dont tu l’as vécue ?',
+  'Qu’est-ce que le temps a changé dans ta manière de la voir ?',
+  'Et si quelqu’un qui était présent venait raconter sa propre version ?'
+],
+
+[
+  2,
+  'Les souvenirs',
+  'Quel objet de ton passé aimerais-tu retrouver, même s’il ne vaut rien ?',
+  'Qu’est-ce qu’il représentait pour toi ?',
+  'Et combien serais-tu réellement prêt à dépenser pour le récupérer ?'
+],
+
+
+// =========================================================
+// 2. L'ARGENT ET SES MYSTÈRES
+// =========================================================
+
+[
+  2,
+  'L’argent',
+  'À partir de quel prix trouves-tu qu’un plaisir devient une folie ?',
+  'Qu’est-ce qui justifie cette limite pour toi ?',
+  'Et pour quel plaisir serais-tu capable de dépasser largement ce montant ?'
+],
+
+[
+  3,
+  'L’argent',
+  'Si tu devais dépenser 5 000 euros avant minuit sans rien conserver de matériel, comment t’y prendrais-tu ?',
+  'Pourquoi choisirais-tu ces dépenses ?',
+  'Et quelle dépense aurais-tu du mal à expliquer à ton entourage ?'
+],
+
+[
+  2,
+  'L’argent',
+  'Pour quel service serais-tu prêt à payer quelqu’un simplement pour ne plus jamais avoir à le faire toi-même ?',
+  'Qu’est-ce qui te déplaît autant dans cette tâche ?',
+  'Et quelle somme mensuelle serais-tu vraiment prêt à y consacrer ?'
+],
+
+[
+  3,
+  'L’argent',
+  'Si quelqu’un t’offrait une somme importante à condition de ne jamais révéler son identité, comment réagirais-tu ?',
+  'Qu’est-ce qui te ferait accepter ou hésiter ?',
+  'Et si tu découvrais que cette personne te connaît beaucoup mieux que tu ne le pensais ?'
+],
+
+[
+  4,
+  'L’argent',
+  'Quelle partie de ton mode de vie changerait en premier si tu n’avais plus besoin de travailler ?',
+  'Qu’est-ce qui te manquerait malgré tout ?',
+  'Et combien de temps penses-tu pouvoir rester sans aucune obligation avant de devenir insupportable ?'
+],
+
+
+// =========================================================
+// 3. LES HABITUDES SOCIALES
+// =========================================================
+
+[
+  1,
+  'La vie sociale',
+  'Quand tu arrives dans un groupe où tu ne connais personne, que fais-tu naturellement ?',
+  'Qu’est-ce qui guide ton comportement ?',
+  'Et quelle situation pourrait te faire agir exactement à l’inverse ?'
+],
+
+[
+  2,
+  'La vie sociale',
+  'Quelle place prends-tu spontanément lorsqu’un groupe doit organiser quelque chose ?',
+  'Pourquoi prends-tu ce rôle plutôt qu’un autre ?',
+  'Et que se passerait-il si tout le monde refusait de te laisser jouer ce rôle ?'
+],
+
+[
+  2,
+  'La vie sociale',
+  'Quel type de silence te met le plus mal à l’aise ?',
+  'Qu’est-ce qui te dérange dans ce silence ?',
+  'Et quelle est la chose la plus inattendue que tu aies dite simplement pour le briser ?'
+],
+
+[
+  3,
+  'La vie sociale',
+  'Quand une conversation devient tendue entre deux personnes, quelle est ta première réaction ?',
+  'Pourquoi adoptes-tu cette attitude ?',
+  'Et as-tu déjà volontairement mis de l’huile sur le feu pour voir ce qui allait se passer ?'
+],
+
+[
+  3,
+  'La vie sociale',
+  'Quelle chose te donne immédiatement envie de quitter une soirée, même si tu passais un bon moment ?',
+  'Qu’est-ce qui fait basculer ton envie ?',
+  'Et t’est-il déjà arrivé de partir discrètement sans dire au revoir à personne ?'
+],
+
+
+// =========================================================
+// 4. LES SITUATIONS IMPOSSIBLES
+// =========================================================
+
+[
+  1,
+  'Les situations impossibles',
+  'Si tu devais échanger ta voix avec celle d’une personne pendant une journée, qui choisirais-tu ?',
+  'Qu’est-ce que tu aimerais faire avec cette voix ?',
+  'Et quelle serait la première phrase que tu prononcerais pour surprendre quelqu’un ?'
+],
+
+[
+  2,
+  'Les situations impossibles',
+  'Si toutes tes conversations étaient accompagnées d’un sous-titre révélant ton humeur, qu’est-ce qui apparaîtrait le plus souvent ?',
+  'Pourquoi cette humeur revient-elle aussi souvent ?',
+  'Et dans quelle situation ces sous-titres te mettraient-ils vraiment dans l’embarras ?'
+],
+
+[
+  2,
+  'Les situations impossibles',
+  'Si tu pouvais supprimer une seule obligation sociale pour tout le monde, laquelle choisirais-tu ?',
+  'Pourquoi cette obligation te paraît-elle inutile ?',
+  'Et quel problème inattendu sa disparition pourrait-elle provoquer ?'
+],
+
+[
+  3,
+  'Les situations impossibles',
+  'Si tu pouvais observer une seule conversation à laquelle tu n’as pas assisté, laquelle choisirais-tu ?',
+  'Qu’espérerais-tu comprendre en l’écoutant ?',
+  'Et si tu entendais quelque chose qui changeait complètement ton opinion ?'
+],
+
+[
+  4,
+  'Les situations impossibles',
+  'Si tu pouvais vivre pendant une semaine avec une identité entièrement inventée, quel personnage créerais-tu ?',
+  'Quelle liberté trouverais-tu dans cette nouvelle identité ?',
+  'Et quelle chose oserais-tu faire sous ce personnage que tu ne ferais jamais sous ton vrai prénom ?'
+],
+
+
+// =========================================================
+// 5. L'EGO ET LA FIERTÉ
+// =========================================================
+
+[
+  2,
+  'L’ego',
+  'Dans quel domaine supportes-tu particulièrement mal de perdre ?',
+  'Pourquoi la défaite te touche-t-elle autant ?',
+  'Et quelle excuse as-tu déjà trouvée pour expliquer une défaite ?'
+],
+
+[
+  3,
+  'L’ego',
+  'Quelle remarque, même dite sur le ton de la plaisanterie, touche facilement ta fierté ?',
+  'Pourquoi cette remarque a-t-elle cet effet sur toi ?',
+  'Et quelle réaction as-tu déjà regrettée après avoir été piqué au vif ?'
+],
+
+[
+  2,
+  'L’ego',
+  'De quelle réussite personnelle es-tu fier sans en parler souvent ?',
+  'Qu’est-ce qui la rend importante à tes yeux ?',
+  'Et quelle réaction aimerais-tu obtenir si tu la racontais aujourd’hui ?'
+],
+
+[
+  3,
+  'L’ego',
+  'Quand quelqu’un réussit beaucoup mieux que toi dans un domaine que tu maîtrises, que ressens-tu en premier ?',
+  'Qu’est-ce qui explique cette réaction ?',
+  'Et as-tu déjà fait semblant de ne pas être vexé alors que tu l’étais énormément ?'
+],
+
+[
+  4,
+  'L’ego',
+  'Quelle critique serait particulièrement difficile à entendre venant d’une personne que tu admires ?',
+  'Pourquoi son opinion compterait-elle autant ?',
+  'Et serais-tu capable de lui répondre franchement, même au risque de lui déplaire ?'
+],
+
+
+// =========================================================
+// 6. LES PETITES VÉRITÉS DU QUOTIDIEN
+// =========================================================
+
+[
+  1,
+  'Le quotidien',
+  'Quelle est la première chose que tu remarques en entrant chez quelqu’un ?',
+  'Pourquoi ton attention se porte-t-elle là-dessus ?',
+  'Et quelle chose chez toi préférerais-tu que les invités ne remarquent pas ?'
+],
+
+[
+  2,
+  'Le quotidien',
+  'Quel petit rituel personnel devient indispensable lorsque tu passes une mauvaise journée ?',
+  'Qu’est-ce que ce rituel t’apporte ?',
+  'Et comment réagirais-tu si quelqu’un venait volontairement l’interrompre ?'
+],
+
+[
+  2,
+  'Le quotidien',
+  'Sur quel sujet du quotidien as-tu des exigences que les autres trouvent parfois excessives ?',
+  'Pourquoi y accordes-tu autant d’importance ?',
+  'Et jusqu’où es-tu déjà allé pour que les choses soient faites à ta manière ?'
+],
+
+[
+  3,
+  'Le quotidien',
+  'Quelle est la chose que tu vérifies parfois plusieurs fois alors que tu sais parfaitement l’avoir déjà faite ?',
+  'Qu’est-ce qui te pousse à vérifier encore ?',
+  'Et as-tu déjà fait demi-tour uniquement pour te rassurer ?'
+],
+
+[
+  3,
+  'Le quotidien',
+  'Quelle habitude de vie as-tu adoptée simplement pour éviter une situation que tu n’aimes pas ?',
+  'Qu’est-ce que tu cherches exactement à éviter ?',
+  'Et quelle serait ta réaction si quelqu’un découvrait la véritable raison de cette habitude ?'
 ]
+
 
 
 
